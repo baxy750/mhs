@@ -1,0 +1,10 @@
+site_name: Magyar három szóban
+theme:
+  name: material
+plugins:
+  - search
+  - macros
+extra_css:
+  - css/morph.css
+extra_javascript:
+  - js/toggle-morph.js
