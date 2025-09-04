@@ -8,3 +8,6 @@ extra_css:
   - css/morph.css
 extra_javascript:
   - js/toggle-morph.js
+extra:
+  footer: |
+    Content licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
