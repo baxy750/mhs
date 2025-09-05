@@ -1,14 +1,21 @@
-\# Magyar három szóban
 
+# Magyar három szóban
 
+Welcome to this resource for learning Hungarian using simple sentence structures.
 
-Welcome to this resource for learning Hungarian using simple sentence structures.  
+## Sentence Example
 
-Each page introduces short, practical sentences to help you understand and speak Hungarian naturally.
+Hungarian:  
+Élek {{ morph("Magyar", "-ország", "-ban") }}
 
+English:  
+I live in Hungary.
 
+Notes:  
+- **Élek** = I live  
+- **Magyarország** = Hungary  
+- **-ban** = in
 
----
+## More Examples
 
-
-
+{{ details("More examples", "<ul><li>Dolgozom Budapesten</li><li>Tanulok angolul</li></ul>") }}

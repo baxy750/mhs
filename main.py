@@ -1,15 +1,13 @@
-import re
 
 def define_env(env):
-    @env.filter
-    def morph(text):
-        parts = text.split('|')
-        html = parts[0]
-        for part in parts[1:]:
-            raw = part.replace('‑', '')
-            html += f'<span class="morph-hide">{raw}</span><span class="morph-show">{part}</span>'
-        return f'<span class="morph">{html}</span>'
+    @env.macro
+    def morph(base, *suffixes):
+        parts = ''.join(
+            f'<span class="morph-hide">{s.strip("-")}</span><span class="morph-show">‑{s.strip("-")}</span>'
+            for s in suffixes
+        )
+        return f'<span class="morph morph-toggle">{base}{parts}</span>'
 
     @env.macro
-    def expand(text):
-        return re.sub(r'\[\[(.*?)\]\]', lambda m: morph(m.group(1)), text)
+    def details(summary, content):
+        return f'<details><summary>{summary}</summary>{content}</details>'
