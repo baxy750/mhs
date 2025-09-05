@@ -9,6 +9,10 @@ extra_javascript:
 plugins:
   - search
   - macros
+nav:
+  - Home: index.md
+  - Examples:
+    - I live: examples/living.md
 extra:
   footer: |
     Content licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
