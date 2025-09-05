@@ -1,7 +1,7 @@
 
-# Magyar három szóban
+# Magyar három {{morph("szó","-ban")}}
 
-Welcome to this resource for learning Hungarian using simple sentence structures.
+Welcome to learning Hungarian with simple sentences.
 
 ## Sentence Example
 
