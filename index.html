@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Magyar három szóban</title>
+  <link rel="stylesheet" href="assets/stylesheets/main.css">
+  <script src="assets/js/toggle-morph.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Magyar három szóban</h1>
+    <button onclick="toggleMorphs()">Toggle endings</button>
+  </header>
+  <main class="grid">
+    <section>
+      <h2>Hungarian</h2>
+      <p>Élek <span class="morph">Magyar<span class="morph-hide">ország</span><span class="morph-show">‑ország</span><span class="morph-hide">ban</span><span class="morph-show">‑ban</span></span></p>
+      <details>
+        <summary>More examples</summary>
+        <ul>
+          <li>Dolgozom Budapesten</li>
+          <li>Tanulok angolul</li>
+        </ul>
+      </details>
+    </section>
+    <section>
+      <h2>English</h2>
+      <p>I live in Hungary</p>
+    </section>
+    <section>
+      <h2>Notes</h2>
+      <p><em>Élek</em> = I live<br><em>Magyarország</em> = Hungary<br><em>‑ban</em> = in</p>
+    </section>
+  </main>
+  <footer>
+    Content licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>
+  </footer>
+</body>
+</html>

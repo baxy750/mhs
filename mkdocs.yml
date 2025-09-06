@@ -1,14 +1,22 @@
-
 site_name: Magyar három szóban
 theme:
   name: material
+
 extra_css:
   - css/morph.css
+
 extra_javascript:
   - js/toggle-morph.js
+
 plugins:
   - search
   - macros
+
+nav:
+  - Home: index.md
+  - Examples:
+    - I live: examples/living.md
+
 extra:
   footer: |
     Content licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)

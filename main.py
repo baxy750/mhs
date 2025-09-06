@@ -40,11 +40,12 @@ def define_env(env):
 # Expandable sections (Markdown inside is supported):
 #   {{ expand("More", "Én itt vagyok, **te ott vagy**.") }}
 #   {{ note("Example", "- Én itt vagyok\n- Te ott vagy") }}
-# note is shorthand for expand, they both support markdown
+# 'note' is shorthand for 'expand'
 
-# Morphological (morph) word breakdown (toggle-style display in markdown text):
+# Morphological (morph) word breakdown (toggle-style display):
 #   [[Magyar|‑ország|‑ban]]
 # Renders as: Magyarországban (toggle shows: Magyar‑ország‑ban)
 # Only use the [[...|...|...]] form inside Markdown — do not wrap in {{ }}
 
-# Expandable details section - RAW HTML {{ details("See more", "<ul><li>Raw HTML only</li></ul>") }}
+# Expandable raw HTML:
+#   {{ details("See more", "<ul><li>Raw HTML only</li></ul>") }}

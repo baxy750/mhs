@@ -1,0 +1,32 @@
+
+body {
+  font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  margin: 2rem;
+  line-height: 1.6;
+}
+header {
+  margin-bottom: 2rem;
+}
+button {
+  margin-top: 1rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+.morph .morph-show {
+  display: none;
+  color: #555;
+}
+.morph-toggle .morph-hide {
+  display: none;
+}
+.morph-toggle .morph-show {
+  display: inline;
+}
+footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #666;
+}
