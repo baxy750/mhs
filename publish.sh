@@ -1,44 +1,30 @@
 #!/bin/bash
 
-# Exit on error
-set -e
+set -e  # stop on error
 
-# Ensure we're on main
-BRANCH=$(git symbolic-ref --short HEAD)
-if [ "$BRANCH" != "main" ]; then
-  echo "You are on branch '$BRANCH'. Please switch to 'main' to publish."
-  exit 1
-fi
+BUILD_DIR="_site_temp"
 
-# Build the site
 echo "🔧 Building site..."
-mkdocs build
+mkdocs build -d "$BUILD_DIR"
 
-# Save current branch (should be 'main')
-CURRENT_BRANCH=$(git symbolic-ref --short HEAD)
-
-# Switch to gh-pages
 echo "🚀 Switching to gh-pages..."
 git switch gh-pages
 
-# Clean everything except .git
 echo "🧹 Cleaning old site files..."
-find . -maxdepth 1 ! -name '.git' ! -name '.' -exec rm -rf {} +
+git rm -rf . > /dev/null 2>&1 || true
 
-# Copy fresh build
 echo "📁 Copying new site files..."
-cp -r site/* .
+cp -r ../$BUILD_DIR/* .
 
-# Commit and push
-echo "📦 Committing and pushing..."
+echo "📦 Committing changes..."
 git add .
-git commit -m "Site update: $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit."
+git commit -m "Publishing update: $(date +'%Y-%m-%d %H:%M:%S')" || echo "Nothing to commit"
+
+echo "⏫ Pushing to GitHub..."
 git push origin gh-pages
 
-# Return to main
-echo "🔁 Returning to main..."
-git switch "$CURRENT_BRANCH"
+echo "🧽 Cleaning up..."
+git switch main
+rm -rf "$BUILD_DIR"
 
-# Open in browser
-echo "🌐 Opening live site..."
-start "" "https://baxy750.github.io/mhs/"
+echo "✅ Done. Site published at: https://baxy750.github.io/mhs/"
