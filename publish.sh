@@ -2,7 +2,7 @@
 
 set -e  # Stop on error
 
-BUILD_DIR="_site_temp"
+BUILD_DIR="../_site_temp"
 
 echo "💾 Saving any uncommitted changes on main..."
 git add .
@@ -18,7 +18,7 @@ echo "🧹 Cleaning old site files..."
 git rm -rf . > /dev/null 2>&1 || true
 
 echo "📁 Copying new site files..."
-cp -r "../$BUILD_DIR"/. .
+cp -r "$BUILD_DIR"/. .
 
 echo "📦 Committing and pushing changes..."
 git add .
