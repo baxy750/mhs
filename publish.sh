@@ -2,7 +2,11 @@
 
 set -e  # Stop on error
 
-BUILD_DIR="../_site_temp"
+BUILD_DIR="$HOME/_site_temp"
+
+echo "🧹 Cleaning previous site build..."
+rm -rf "$BUILD_DIR"
+mkdir -p "$BUILD_DIR"
 
 echo "💾 Saving any uncommitted changes on main..."
 git add .
@@ -28,7 +32,5 @@ git push origin gh-pages
 echo "🔙 Switching back to main..."
 git switch main
 
-echo "🧹 Cleaning up..."
-rm -rf "$BUILD_DIR"
-
 echo "✅ Done. Site published at: https://baxy750.github.io/mhs/"
+echo "📂 Built files remain in: $BUILD_DIR"
