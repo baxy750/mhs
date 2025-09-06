@@ -2,8 +2,11 @@
 
 set -e  # Stop on error
 
-# Use absolute path for the build directory
-BUILD_DIR="$(pwd)/_site_temp"
+BUILD_DIR="_site_temp"
+
+echo "💾 Saving any uncommitted changes on main..."
+git add .
+git commit -m "Auto-commit before publish: $(date +'%Y-%m-%d %H:%M:%S')" || echo "⚠️ Nothing to commit"
 
 echo "🔧 Building site..."
 mkdocs build -d "$BUILD_DIR"
@@ -15,7 +18,7 @@ echo "🧹 Cleaning old site files..."
 git rm -rf . > /dev/null 2>&1 || true
 
 echo "📁 Copying new site files..."
-cp -r "$BUILD_DIR"/. .
+cp -r "../$BUILD_DIR"/. .
 
 echo "📦 Committing and pushing changes..."
 git add .
