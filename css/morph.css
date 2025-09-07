@@ -1,0 +1,11 @@
+
+.morph .morph-show {
+  display: none;
+  color: #555;
+}
+.morph-toggle .morph-hide {
+  display: none;
+}
+.morph-toggle .morph-show {
+  display: inline;
+}
