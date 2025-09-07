@@ -1,6 +1,9 @@
 #!/bin/bash
+
 # serve.sh
+
 set -e
+
 mkdocs serve &
 sleep 5
 echo -e "\nmkdocs process started:"
