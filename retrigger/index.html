@@ -34,8 +34,8 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i%7CFira+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Open Sans";--md-code-font:"Fira Code"}</style>
       
     
     
@@ -298,6 +298,45 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
+  <div style="margin-bottom: 1em;">
+  <label>
+    <input type="checkbox" id="toggle-morph" checked>
+    Toggle hyphens
+  </label>
+  &nbsp;&nbsp;
+  <label>
+    <input type="checkbox" id="expand-all">
+    Expand all
+  </label>
+</div>
+
+
+
+
+<!-- OLD
+<div style="margin-bottom: 1em;">
+  <label><input type="checkbox" id="toggle-hyphens" checked> Toggle hyphens</label>
+  &nbsp;&nbsp;
+  <label><input type="checkbox" id="expand-all"> Expand all</label>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const morphToggle = document.getElementById("toggle-morph");
+  if (morphToggle) {
+    morphToggle.addEventListener("change", function () {
+      document.body.classList.toggle("show-morph", this.checked);
+    });
+  }
+  const expandToggle = document.getElementById("expand-all");
+  if (expandToggle) {
+    expandToggle.addEventListener("change", function () {
+      document.querySelectorAll("details").forEach(d => d.open = expandToggle.checked);
+    });
+  }
+});
+</script>
+-->
+  
                   
 
 
@@ -318,6 +357,7 @@
 
 
                 
+
               </article>
             </div>
           

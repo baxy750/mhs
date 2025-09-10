@@ -16,7 +16,7 @@
     
     
       
-        <title>Week1 - Magyar három szóban</title>
+        <title>Kutyaséta: a kutyámmal - Magyar három szóban</title>
       
     
     
@@ -34,8 +34,8 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i%7CFira+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Open Sans";--md-code-font:"Fira Code"}</style>
       
     
     
@@ -58,6 +58,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#kutyaseta-a-kutyammal" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -91,7 +96,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Week1
+              Kutyaséta: a kutyámmal
             
           </span>
         </div>
@@ -287,6 +292,25 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#dog-walk-with-my-dog" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dog walk: with my dog
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -298,36 +322,79 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
+  <div style="margin-bottom: 1em;">
+  <label>
+    <input type="checkbox" id="toggle-morph" checked>
+    Toggle hyphens
+  </label>
+  &nbsp;&nbsp;
+  <label>
+    <input type="checkbox" id="expand-all">
+    Expand all
+  </label>
+</div>
+
+
+
+
+<!-- OLD
+<div style="margin-bottom: 1em;">
+  <label><input type="checkbox" id="toggle-hyphens" checked> Toggle hyphens</label>
+  &nbsp;&nbsp;
+  <label><input type="checkbox" id="expand-all"> Expand all</label>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const morphToggle = document.getElementById("toggle-morph");
+  if (morphToggle) {
+    morphToggle.addEventListener("change", function () {
+      document.body.classList.toggle("show-morph", this.checked);
+    });
+  }
+  const expandToggle = document.getElementById("expand-all");
+  if (expandToggle) {
+    expandToggle.addEventListener("change", function () {
+      document.querySelectorAll("details").forEach(d => d.open = expandToggle.checked);
+    });
+  }
+});
+</script>
+-->
+  
                   
 
 
 
-  <h1>Week1</h1>
-
-<p><label>
-  <input type="checkbox" id="toggle-morph"> Show word parts
-</label></p>
+<h1 id="kutyaseta-a-kutyammal"><span data-hyphen="Kutya-séta" data-plain="Kutyaséta">Kutyaséta</span>: a <span data-hyphen="kutyá-m-mal" data-plain="kutyámmal">kutyámmal</span><a class="headerlink" href="#kutyaseta-a-kutyammal" title="Permanent link">&para;</a></h1>
+<h5 id="dog-walk-with-my-dog">Dog walk: with my dog<a class="headerlink" href="#dog-walk-with-my-dog" title="Permanent link">&para;</a></h5>
+<p><em>Reggel <span data-hyphen="három-negy-ed" data-plain="háromnegyed">háromnegyed</span> hét</em> - <em>6:45 in the morning</em></p>
 <table>
 <thead>
 <tr>
-<th>Hungarian</th>
-<th>English</th>
-<th>Notes</th>
+<th>Magyarul</th>
+<th>Angolul</th>
+<th>Jegyzet</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>[[Reggel</td>
-<td>‑i]] étel finom</td>
-<td>The morning food is tasty</td>
+<td><span data-hyphen="Reggel-i" data-plain="Reggeli">Reggeli</span> étel finom</td>
+<td>The breakfast food is tasty</td>
+<td><span data-hyphen="Reggel-i" data-plain="Reggeli">Reggeli</span> = (of) morning (adj.)</td>
 </tr>
 <tr>
-<td>[[Magyar</td>
-<td>‑ország</td>
-<td>‑ban]] élek</td>
+<td><span data-hyphen="Magyar-ország-ban" data-plain="Magyarországban">Magyarországban</span> élek</td>
+<td>I live in Hungary</td>
+<td>ország = country, ‑ban = in</td>
 </tr>
 </tbody>
 </table>
+<!--
+| Magyarul                                | Angolul                   | Jegyzet                       |
+|-----------------------------------------|---------------------------|-------------------------------|
+| <span data-hyphen="Reggel-i" data-plain="Reggeli">Reggeli</span> étel finom                 | The breakfast food is tasty | <span data-hyphen="Reggel-i" data-plain="Reggeli">Reggeli</span> = (of) morning (adj.) |
+| <span data-hyphen="Magyar-ország-ban" data-plain="Magyarországban">Magyarországban</span> élek              | I live in Hungary         | ország = country, ‑ban = in   |
+-->
 
 
 
@@ -341,6 +408,7 @@
 
 
                 
+
               </article>
             </div>
           

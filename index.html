@@ -36,8 +36,8 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i%7CFira+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Open Sans";--md-code-font:"Fira Code"}</style>
       
     
     
@@ -244,6 +244,24 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#hungarian-in-three-words-a-learning-journal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hungarian in Three Words - a Learning Journal
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#start-learning" class="md-nav__link">
+    <span class="md-ellipsis">
+      Start Learning
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#sentence-example" class="md-nav__link">
     <span class="md-ellipsis">
       Sentence Example
@@ -259,36 +277,12 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="More Examples">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#learn-hungarian-using-simple-three-word-sentences" class="md-nav__link">
-    <span class="md-ellipsis">
-      Learn Hungarian using simple three-word sentences
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#start-learning" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔹 Start Learning
-    </span>
-  </a>
-  
 </li>
       
         <li class="md-nav__item">
   <a href="#topics" class="md-nav__link">
     <span class="md-ellipsis">
-      🧠 Topics
+      Topics
     </span>
   </a>
   
@@ -397,6 +391,24 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#hungarian-in-three-words-a-learning-journal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hungarian in Three Words - a Learning Journal
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#start-learning" class="md-nav__link">
+    <span class="md-ellipsis">
+      Start Learning
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#sentence-example" class="md-nav__link">
     <span class="md-ellipsis">
       Sentence Example
@@ -412,36 +424,12 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="More Examples">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#learn-hungarian-using-simple-three-word-sentences" class="md-nav__link">
-    <span class="md-ellipsis">
-      Learn Hungarian using simple three-word sentences
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#start-learning" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔹 Start Learning
-    </span>
-  </a>
-  
 </li>
       
         <li class="md-nav__item">
   <a href="#topics" class="md-nav__link">
     <span class="md-ellipsis">
-      🧠 Topics
+      Topics
     </span>
   </a>
   
@@ -459,28 +447,53 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
+  <div style="margin-bottom: 1em;">
+  <label>
+    <input type="checkbox" id="toggle-morph" checked>
+    Toggle hyphens
+  </label>
+  &nbsp;&nbsp;
+  <label>
+    <input type="checkbox" id="expand-all">
+    Expand all
+  </label>
+</div>
+
+
+
+
+<!-- OLD
+<div style="margin-bottom: 1em;">
+  <label><input type="checkbox" id="toggle-hyphens" checked> Toggle hyphens</label>
+  &nbsp;&nbsp;
+  <label><input type="checkbox" id="expand-all"> Expand all</label>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const morphToggle = document.getElementById("toggle-morph");
+  if (morphToggle) {
+    morphToggle.addEventListener("change", function () {
+      document.body.classList.toggle("show-morph", this.checked);
+    });
+  }
+  const expandToggle = document.getElementById("expand-all");
+  if (expandToggle) {
+    expandToggle.addEventListener("change", function () {
+      document.querySelectorAll("details").forEach(d => d.open = expandToggle.checked);
+    });
+  }
+});
+</script>
+-->
+  
                   
 
 
 
-<h1 id="magyar-harom-szoban">Magyar három szóban</h1>
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream</p>
-<p>Welcome to this resource for learning Hungarian using simple sentence structures.</p>
-<h2 id="sentence-example">Sentence Example</h2>
-<p>Hungarian:<br />
-Élek <span class="morph morph-toggle">Magyar<span class="morph-hide">ország</span><span class="morph-show">‑ország</span><span class="morph-hide">ban</span><span class="morph-show">‑ban</span></span></p>
-<p>English:<br />
-I live in Hungary.</p>
-<p>Notes:<br />
-- <strong>Élek</strong> = I live<br />
-- <strong>Magyarország</strong> = Hungary<br />
-- <strong>-ban</strong> = in</p>
-<h2 id="more-examples">More Examples</h2>
-<details><summary>More examples</summary><ul><li>Dolgozom Budapesten</li><li>Tanulok angolul</li></ul></details>
-<p>=======</p>
-<h3 id="learn-hungarian-using-simple-three-word-sentences">Learn Hungarian using simple three-word sentences</h3>
+<h1 id="magyar-harom-szoban">Magyar harom <span data-hyphen="szó-ban" data-plain="szóban">szóban</span><a class="headerlink" href="#magyar-harom-szoban" title="Permanent link">&para;</a></h1>
+<h5 id="hungarian-in-three-words-a-learning-journal">Hungarian in Three Words - a Learning Journal<a class="headerlink" href="#hungarian-in-three-words-a-learning-journal" title="Permanent link">&para;</a></h5>
 <hr />
-<h2 id="start-learning">🔹 Start Learning</h2>
+<h3 id="start-learning">Start Learning<a class="headerlink" href="#start-learning" title="Permanent link">&para;</a></h3>
 <div style="display: flex; flex-wrap: wrap; gap: 1rem;">
 <a href="examples/living/" style="flex: 1 1 30%; min-width: 140px; text-align: center; padding: 1em; background: #f0f0f0; text-decoration: none; border-radius: 8px;">🏠 I live</a>
 <a href="examples/speaking/" style="flex: 1 1 30%; min-width: 140px; text-align: center; padding: 1em; background: #f0f0f0; text-decoration: none; border-radius: 8px;">🗣️ I speak</a>
@@ -491,7 +504,20 @@ I live in Hungary.</p>
 </div>
 
 <hr />
-<h2 id="topics">🧠 Topics</h2>
+<h3 id="sentence-example">Sentence Example<a class="headerlink" href="#sentence-example" title="Permanent link">&para;</a></h3>
+<p>Hungarian:<br />
+Élek <span data-hyphen="Magyar-ország-ban" data-plain="Magyarországban">Magyarországban</span>.</p>
+<p>English:<br />
+I live in Hungary.</p>
+<p>Notes:<br />
+- <strong>Élek</strong> = I live<br />
+- <strong>Magyarország</strong> = Hungary<br />
+- <strong>-ban</strong> = in</p>
+<h3 id="more-examples">More Examples<a class="headerlink" href="#more-examples" title="Permanent link">&para;</a></h3>
+<details><summary>More examples</summary><ul><li>Dolgozom Budapesten</li><li>Tanulok angolul</li></ul></details>
+
+<hr />
+<h3 id="topics">Topics<a class="headerlink" href="#topics" title="Permanent link">&para;</a></h3>
 <div style="display: flex; gap: 2rem;">
 <div style="flex: 1">
 **People**  
@@ -512,21 +538,6 @@ I live in Hungary.</p>
 - tanulok  
 </div>
 </div>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<p>Stashed changes</p>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
 
 
 
@@ -540,6 +551,7 @@ I live in Hungary.</p>
 
 
                 
+
               </article>
             </div>
           
