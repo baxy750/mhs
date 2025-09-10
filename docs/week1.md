@@ -10,7 +10,7 @@
 | (A [[kutyá m]] neve Bentley)                   | (My dog's name is Bentley)               |                                                     |
 | "Készen? Akkor [[men jünk!]]"                  | "Ready? Then let's go!"                  |                                                     |
 | "Vau!" mondja Bentley                          | "Woof!" says Bentley                     |                                                     |
-| Ma hideg van<br>Nem [[szeret em]] [[hideg et]] | It's cold today<br>I don't like the cold | <br>És meg: Túl hideg van (And also: It's too cold) |
+| Ma hideg van<br>Nem [[szeret em]] a [[hideg et]] | It's cold today<br>I don't like the cold | <br>És meg: Túl hideg van (And also: It's too cold) |
 | [[Sétál unk]] a [[park ba]]                    | We walk to the park                      |                                                     |
 | Bentley szaglászik [[minden hol]]              | Bentley sniffs everywhere                |                                                     |
 | [[Ott hon]] [[etet em]] a [[kutyá t]]          | At home I feed the dog                   |                                                     |
