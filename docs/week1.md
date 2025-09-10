@@ -14,7 +14,7 @@
 | [[Sétál unk]] a [[park ba]]                      | We walk to the park                      |                                                     |
 | Bentley [[szaglász ik]] [[minden hol]]           | Bentley sniffs everywhere                |                                                     |
 | [[Ott hon]] [[etet em]] a [[kutyá t]]            | At home I feed the dog                   |                                                     |
-| [[Megy ek]] a [[busz megálló]]                   | I walk to the bus stop                   |                                                     |
+| [[Megy ek]] a [[busz megálló]]                   | I walk (to) the bus stop                   |                                                     |
 | [[Bussz al]] [[megy ek]] [[munká ba]]            | I go by bus into work                    | munka + ba = into work                              |
 | Később lesz [[est i]] [[kutya séta]]             | Later there will be an evening dog walk  |                                                     |
 
