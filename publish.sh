@@ -27,7 +27,7 @@ cp -r "$BUILD_DIR"/. .
 echo "📦 Committing and pushing changes..."
 git add .
 git commit -m "Publish site: $(date +'%Y-%m-%d %H:%M:%S')" || echo "⚠️ Nothing to commit"
-git push origin gh-pages
+git push origin gh-pages --force
 
 echo "🔙 Switching back to main..."
 git switch main
