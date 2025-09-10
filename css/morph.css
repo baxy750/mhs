@@ -16,3 +16,9 @@
   margin-top: -0.2em;
   margin-bottom: 1em;
 }
+
+/* added to remove table borders */
+.md-typeset table th,
+.md-typeset table td {
+  border: none;
+}
