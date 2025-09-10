@@ -6,7 +6,7 @@
 ### Start Learning
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem;">
-<a href="examples/living/" style="flex: 1 1 30%; min-width: 140px; text-align: center; padding: 1em; background: #f0f0f0; text-decoration: none; border-radius: 8px;">🏠 I live</a>
+<a href="week1/" style="flex: 1 1 30%; min-width: 140px; text-align: center; padding: 1em; background: #f0f0f0; text-decoration: none; border-radius: 8px;">🏠 Journal</a>
 <a href="examples/speaking/" style="flex: 1 1 30%; min-width: 140px; text-align: center; padding: 1em; background: #f0f0f0; text-decoration: none; border-radius: 8px;">🗣️ I speak</a>
 <a href="examples/going/" style="flex: 1 1 30%; min-width: 140px; text-align: center; padding: 1em; background: #f0f0f0; text-decoration: none; border-radius: 8px;">🚶 You go</a>
 <a href="examples/eating/" style="flex: 1 1 30%; min-width: 140px; text-align: center; padding: 1em; background: #f0f0f0; text-decoration: none; border-radius: 8px;">🍽️ We eat</a>
