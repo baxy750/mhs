@@ -1,6 +1,11 @@
 site_name: Magyar három szóban
+
 theme:
   name: material
+  custom_dir: overrides  # <- Added for theme overrides
+  font:
+    text: Open Sans
+    code: Fira Code  # (optional, if you want a nice monospace font)
 
 extra_css:
   - css/morph.css
@@ -15,8 +20,16 @@ plugins:
 nav:
   - Home: index.md
   - Examples:
-    - I live: examples/living.md
+      - I live: examples/living.md
 
 extra:
   footer: |
     Content licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences

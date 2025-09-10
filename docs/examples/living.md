@@ -1,9 +1,9 @@
 
 # I live in Hungary  
-## Élek Magyarországban
+## Élek {{ morph("Magyar", "ország", "ban") }}
 
 Hungarian:  
-Élek {{ morph("Magyar", "-ország", "-ban") }}
+Élek {{ morph("Magyar", "ország", "ban") }}
 
 English:  
 I live in Hungary.

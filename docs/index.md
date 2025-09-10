@@ -1,31 +1,9 @@
-
-# Magyar három szóban
-<<<<<<< Updated upstream
-
-Welcome to this resource for learning Hungarian using simple sentence structures.
-
-## Sentence Example
-
-Hungarian:  
-Élek {{ morph("Magyar", "-ország", "-ban") }}
-
-English:  
-I live in Hungary.
-
-Notes:  
-- **Élek** = I live  
-- **Magyarország** = Hungary  
-- **-ban** = in
-
-## More Examples
-
-{{ details("More examples", "<ul><li>Dolgozom Budapesten</li><li>Tanulok angolul</li></ul>") }}
-=======
-### Learn Hungarian using simple three-word sentences
+# Magyar harom {{ morph("szó", "ban") }}
+##### Hungarian in Three Words - a Learning Journal
 
 ---
 
-## 🔹 Start Learning
+### Start Learning
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem;">
 <a href="examples/living/" style="flex: 1 1 30%; min-width: 140px; text-align: center; padding: 1em; background: #f0f0f0; text-decoration: none; border-radius: 8px;">🏠 I live</a>
@@ -38,7 +16,26 @@ Notes:
 
 ---
 
-## 🧠 Topics
+### Sentence Example
+
+Hungarian:  
+Élek {{morph("Magyar","ország","ban")}}.
+
+English:  
+I live in Hungary.
+
+Notes:  
+- **Élek** = I live  
+- **Magyarország** = Hungary  
+- **-ban** = in
+
+### More Examples
+
+{{ details("More examples", "<ul><li>Dolgozom Budapesten</li><li>Tanulok angolul</li></ul>") }}
+
+---
+
+### Topics
 
 <div style="display: flex; gap: 2rem;">
 <div style="flex: 1">
@@ -60,4 +57,3 @@ Notes:
 - tanulok  
 </div>
 </div>
->>>>>>> Stashed changes

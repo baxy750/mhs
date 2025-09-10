@@ -1,0 +1,38 @@
+<div style="margin-bottom: 1em;">
+  <label>
+    <input type="checkbox" id="toggle-morph" checked>
+    Toggle hyphens
+  </label>
+  &nbsp;&nbsp;
+  <label>
+    <input type="checkbox" id="expand-all">
+    Expand all
+  </label>
+</div>
+
+
+
+
+<!-- OLD
+<div style="margin-bottom: 1em;">
+  <label><input type="checkbox" id="toggle-hyphens" checked> Toggle hyphens</label>
+  &nbsp;&nbsp;
+  <label><input type="checkbox" id="expand-all"> Expand all</label>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const morphToggle = document.getElementById("toggle-morph");
+  if (morphToggle) {
+    morphToggle.addEventListener("change", function () {
+      document.body.classList.toggle("show-morph", this.checked);
+    });
+  }
+  const expandToggle = document.getElementById("expand-all");
+  if (expandToggle) {
+    expandToggle.addEventListener("change", function () {
+      document.querySelectorAll("details").forEach(d => d.open = expandToggle.checked);
+    });
+  }
+});
+</script>
+-->
