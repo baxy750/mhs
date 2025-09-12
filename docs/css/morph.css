@@ -18,15 +18,22 @@
 }
 
 
-
 /* Remove all table borders */
 .md-typeset__table table th,
 .md-typeset__table table td {
   border: none !important;
 }
-
 /* remove the faint row separators */
 .md-typeset__table table,
 .md-typeset__table table tr {
   border: none !important;
+}
+
+
+/* remove the TOC column and use the space */
+.md-sidebar--secondary {
+  display: none !important;
+}
+.md-content {
+  max-width: 100% !important;
 }

@@ -4,7 +4,7 @@
 
 set -e
 
-mkdocs serve &
+python -m mkdocs serve &
 sleep 5
 echo -e "\nmkdocs process started:"
 ps | grep mkdocs
