@@ -19,7 +19,7 @@
 | [[El megy ek]] a [[busz megálló ba]]                   | I leave for the bus stop                | megyek = I go, [[el megyek]] = I leave (el- = out, be- = in) |
 | [[Bussz al]] [[megy ek]] [[munká ba]]                  | I go by bus to work                     | [[munká ba]] = into work                                     |
 | [[Dolgoz om]] a [[varos ban]]                          | I work in the city                      |                                                              |
-| [[Késő bb]] lesz [[est i]] [[kutya séta]]              | Later there will be an evening dog walk | [[Késő bb]] = [[late r]]                                     |
+| [[Késő bb]] lesz [[est i]] [[kutya séta]]              | Later there will be an evening dog walk | [[Késő bb]] = [[late r]], lesz = it will be                  |
 | [[Sétál unk]] [[nap on ta]] [[két szer]]               | We walk twice a day                     | [[Nap on ta]] [[két szer]] = (day in per) (two times)        |
 
 
