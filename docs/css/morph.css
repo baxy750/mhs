@@ -1,3 +1,21 @@
+/* Tufte-inspired color scheme */
+body,
+.md-main,
+.md-content {
+  background-color: #fffff8 !important;  /* off-white page background */
+  color: #111111 !important;             /* off-black text */
+}
+/* Make sure Markdown content uses off-black text */
+.md-typeset {
+  color: #111111 !important;
+}
+/* Also override sidebar backgrounds if you want them matching */
+.md-sidebar--primary,
+.md-sidebar--secondary {
+  background-color: #fffff8 !important;
+}
+
+
 /* Optional styling for morph spans */
 [data-hyphen] {
   cursor: pointer;
@@ -28,9 +46,9 @@
 /* Reduce vertical spacing in tables */
 .md-typeset table td,
 .md-typeset table th {
-  line-height: 1.2 !important;   /* tighter than 1.5 */
-  padding-top: 0.2em;            /* optional: smaller padding */
-  padding-bottom: 0.2em;
+  line-height: 1.3 !important;   /* tighter than 1.5 */
+  padding-top: 0.0em;            /* optional: smaller padding */
+  padding-bottom: 0.0em;
 }
 
 
