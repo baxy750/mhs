@@ -7,7 +7,7 @@
 .md-typeset h1 {
   margin-bottom: 0.3em;
 }
-
+/* this serves as a subtitle under the H1 heading */
 .md-typeset h5 {
   text-transform: none;
   font-size: 1em;
@@ -15,6 +15,13 @@
   color: #666;
   margin-top: -0.2em;
   margin-bottom: 1em;
+}
+
+
+/* Increase body copy font size */
+.md-typeset {
+  font-size: 1.0rem;   /* default is about 0.9rem */
+  line-height: 1.6;    /* optional: improve readability */
 }
 
 
