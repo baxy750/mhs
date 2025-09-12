@@ -75,9 +75,17 @@
   margin-top: -2.2em;   /* adjust until it lines up visually with h1 */
   font-size: 0.8rem;    /* shrink label text */
 }
-
 .toggle-bar input[type="checkbox"] {
   transform: scale(0.85);
   vertical-align: middle;
   margin-right: 0.2em;
+}
+/* Mobile view: put toggles at top left */
+@media screen and (max-width: 76.1875em) {
+  .toggle-bar {
+    float: none;          /* no floating right */
+    margin-top: 0;        /* reset the negative margin */
+    margin-bottom: 0.5em; /* give a bit of space under it */
+    text-align: left;     /* align labels left */
+  }
 }
