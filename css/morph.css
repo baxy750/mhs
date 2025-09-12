@@ -5,12 +5,12 @@
 
 /* Adjust heading spacing if desired */
 .md-typeset h1 {
-  margin-bottom: 0.3em;
+  margin-bottom: 0.25em;
 }
 /* this serves as a subtitle under the H1 heading */
 .md-typeset h5 {
   text-transform: none;
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-weight: normal;
   color: #666;
   margin-top: -0.2em;
@@ -44,4 +44,40 @@
 }
 .md-content {
   max-width: 100% !important;
+}
+
+
+/* Apply to all labels in the toggle bar such as Toggle hyphens and Expand all */
+.md-content label {
+  font-size: 0.6rem;       /* shrink text */
+}
+/* and the checkbox*/
+.md-content label input[type="checkbox"] {
+  transform: scale(0.95);   /* shrink checkbox box */
+  vertical-align: middle;  /* keep text aligned nicely */
+  margin-right: 0.2em;
+}
+
+
+/* Make the left-hand navigation sidebar narrower (this is the list of files) */
+.md-sidebar--primary {
+  width: 10rem;   /* try 12rem (~192px) instead of 15rem */
+}
+/* Ensure the main content shifts accordingly */
+.md-main__inner {
+  margin-left: 2rem;
+}
+
+
+/* Toggle bar aligned to the right of the H1 */
+.toggle-bar {
+  float: right;
+  margin-top: -2.2em;   /* adjust until it lines up visually with h1 */
+  font-size: 0.8rem;    /* shrink label text */
+}
+
+.toggle-bar input[type="checkbox"] {
+  transform: scale(0.85);
+  vertical-align: middle;
+  margin-right: 0.2em;
 }
