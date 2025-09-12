@@ -91,3 +91,22 @@
     text-align: left !important;     /* align labels left */
   }
 }
+
+
+/* Remove the default Material nav chevron */
+.md-nav__item--nested > .md-nav__link::after {
+  content: none !important;       /* remove generated pseudo-element */
+  mask-image: none !important;
+  -webkit-mask-image: none !important;
+  background: none !important;
+}
+/* Add our own inline arrow */
+.md-nav__item--nested > .md-nav__link {
+  display: inline-flex;           /* let text + arrow flow together */
+  align-items: center;
+}
+.md-nav__item--nested > .md-nav__link::after {
+  content: "›";                   /* simple chevron */
+  font-size: 0.9em;               /* adjust size relative to text */
+  margin-left: 0.3em;
+}
