@@ -13,7 +13,7 @@ git add .
 git commit -m "Auto-commit before publish: $(date +'%Y-%m-%d %H:%M:%S')" || echo "⚠️ Nothing to commit"
 
 echo "🔧 Building site..."
-mkdocs build -d "$BUILD_DIR"
+python -m mkdocs build -d "$BUILD_DIR"
 
 echo "🚀 Switching to gh-pages..."
 git switch gh-pages
