@@ -20,10 +20,17 @@
 
 
 /* Increase font size inside all Markdown table cells */
-.md-typeset table td,
+/*.md-typeset table td,
 .md-typeset table th {
   font-size: 0.675rem !important;
   line-height: 1.5;
+}*/
+/* Reduce vertical spacing in tables */
+.md-typeset table td,
+.md-typeset table th {
+  line-height: 1.2 !important;   /* tighter than 1.5 */
+  padding-top: 0.2em;            /* optional: smaller padding */
+  padding-bottom: 0.2em;
 }
 
 
@@ -94,11 +101,21 @@
     margin-top: -1.7em !important; 
     margin-bottom: 1.0em !important;
   }
-
   /* reduce left/right margins to give content more width */
   .md-main__inner {
     margin-left: 0.5rem !important;
     margin-right: 0.5rem !important;
+  }
+  /* align tables with content edge */
+  .md-typeset__table {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .md-typeset__table table {
+    width: 100% !important;
+    display: table !important;   /* override theme's block display */
   }
 }
 
