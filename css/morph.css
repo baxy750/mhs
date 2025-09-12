@@ -10,7 +10,7 @@
 /* this serves as a subtitle under the H1 heading */
 .md-typeset h5 {
   text-transform: none;
-  font-size: 1em;
+  font-size: 1.1em;
   font-weight: normal;
   color: #666;
   margin-top: -0.2em;
@@ -18,10 +18,11 @@
 }
 
 
-/* Increase body copy font size */
-.md-typeset {
-  font-size: 1.0rem;   /* default is about 0.9rem */
-  line-height: 1.6;    /* optional: improve readability */
+/* Increase font size inside all Markdown table cells */
+.md-typeset table td,
+.md-typeset table th {
+  font-size: 0.675rem !important;
+  line-height: 1.5;
 }
 
 
