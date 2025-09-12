@@ -80,12 +80,13 @@
   vertical-align: middle;
   margin-right: 0.2em;
 }
-/* Mobile view: put toggles at top left */
-@media screen and (max-width: 76.1875em) {
+/* Mobile: toggles left, above the heading */
+@media screen and (max-width: 76.1875em), screen and (max-width: 1219px) {
   .toggle-bar {
-    float: none;          /* no floating right */
-    margin-top: 0;        /* reset the negative margin */
-    margin-bottom: 0.5em; /* give a bit of space under it */
-    text-align: left;     /* align labels left */
+    float: none !important;     /* kill the desktop float */
+    clear: both !important;     /* drop below any floats */
+    display: block !important;  /* take full width */
+    margin: 0 0 0.6em 0 !important;  /* space under bar */
+    text-align: left !important;     /* align labels left */
   }
 }
