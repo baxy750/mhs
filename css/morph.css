@@ -82,7 +82,8 @@
   margin-right: 0.2em;
 }
 /* Mobile: toggles left, above the heading, tighter margins */
-@media screen and (max-width: 76.1875em), screen and (max-width: 1219px) {
+/*@media screen and (max-width: 76.1875em), screen and (max-width: 1219px) {*/
+@media screen and (max-width: 768px) {
   .toggle-bar {
     float: none !important;     
     clear: both !important;     
