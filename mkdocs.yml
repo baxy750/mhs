@@ -19,8 +19,8 @@ plugins:
 
 nav:
   - Home: index.md
-  - Examples:
-      - I live: examples/living.md
+  - Journal:
+      - Reggeli kutyaséta: week1.md
 
 extra:
   footer: |
