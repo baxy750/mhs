@@ -164,4 +164,5 @@ body,
 /* Prevent wrapping in table headers */
 .md-typeset table th {
   white-space: nowrap;
+  word-break: keep-all;    /* for Asian languages, but also prevents Safari odd breaks */
 }
