@@ -46,12 +46,6 @@ body,
 }
 
 
-/* Prevent wrapping in table headers */
-.md-typeset table th {
-  white-space: nowrap;
-}
-
-
 /* Remove all table borders */
 .md-typeset__table table th,
 .md-typeset__table table td {
@@ -162,8 +156,12 @@ body,
   table-layout: fixed;    /* prevent auto-resize on content change */
   width: 100%;            /* span full width */
 }
-.md-typeset table th,
+/* Allow wrapping in table cells */
 .md-typeset table td {
   word-wrap: break-word;  /* allow long words to wrap */
   white-space: normal;    /* don’t force no-wrap */
+}
+/* Prevent wrapping in table headers */
+.md-typeset table th {
+  white-space: nowrap;
 }
