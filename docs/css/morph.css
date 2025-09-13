@@ -37,18 +37,18 @@ body,
 }
 
 
-/* Increase font size inside all Markdown table cells */
-/*.md-typeset table td,
-.md-typeset table th {
-  font-size: 0.675rem !important;
-  line-height: 1.5;
-}*/
 /* Reduce vertical spacing in tables */
 .md-typeset table td,
 .md-typeset table th {
   line-height: 1.3 !important;   /* tighter than 1.5 */
   padding-top: 0.0em;            /* optional: smaller padding */
   padding-bottom: 0.0em;
+}
+
+
+/* Prevent wrapping in table headers */
+.md-typeset table th {
+  white-space: nowrap;
 }
 
 
