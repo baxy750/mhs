@@ -1,9 +1,9 @@
 # [[Reggel i]] [[kutya séta]]
 ##### Morning dog walk
 
-| [[Magyar ul]]                                          | [[Angol ul]]                            | Jegyzet - Notes                                                 |
+| [[Magyar ul]]                                          | [[Angol ul]]                            | Jegyzet-notes                                                   |
 |--------------------------------------------------------|-----------------------------------------|-----------------------------------------------------------------|
-| Reggel [[három negy ed]] [[hét kor]]                   | 6:45 AM in the morning                  | Diary entry at 6:45am                                           |
+| Reggel [[három negy ed]] [[hét kor]]                   | 6:45 AM in the morning                  | Diary entry at 6:45 am                                           |
 | [[Etet em]] a [[macská m at]]                          | I feed my cat                           | -at (object marker)                                             |
 | [[Sétál tat om]] a [[kutyá m at]]                      | I walk my dog                           | tat = cause someone to walk                                     |
 | "Jó [[reggel t]], Bentley!"                            | "Good morning, Bentley!"                | -t (object marker)                                              |

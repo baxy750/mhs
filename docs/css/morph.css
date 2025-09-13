@@ -155,3 +155,15 @@ body,
   font-size: 0.9em;               /* adjust size relative to text */
   margin-left: 0.3em;
 }
+
+
+/* Make phrase tables stable during morph toggle */
+.md-typeset table {
+  table-layout: fixed;    /* prevent auto-resize on content change */
+  width: 100%;            /* span full width */
+}
+.md-typeset table th,
+.md-typeset table td {
+  word-wrap: break-word;  /* allow long words to wrap */
+  white-space: normal;    /* don’t force no-wrap */
+}
