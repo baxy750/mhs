@@ -13,14 +13,14 @@
 | Ma hideg van                                           | It's cold today                         |                                           |
 | Nem [[szeret em]] a [[hideg et]]                       | I don't like the cold                   | -et (obj mark)                            |
 | "Nincs túl hideg!" mondja Bentley                      | "It's not too cold!" says Bentley       |                                           |
-| [[Sétál unk]] a [[park ba]]                            | We walk to the park                     | -ba = to                                  |
+| [[Sétál unk]] a [[park ba]]                            | We walk to the park                     | -ba to the park                           |
 | A [[park ban]], Bentley [[minden hol]] [[szaglász ik]] | At the park, Bentley sniffs everywhere  | -ban in the park, szaglászni to sniff     |
 | [[Ott hon]] [[etet em]] a [[kutyá t]]                  | At home I feed the dog                  |                                           |
 | [[El megy ek]] a [[busz megálló ba]]                   | I leave for the bus stop                | [[el megyek]] I go out                    |
 | [[Bussz al]] [[megy ek]] [[munká ba]]                  | I go by bus to work                     | -al by bus, -ba to work                   |
 | [[Dolgoz om]] a [[város ban]]                          | I work in the city                      |                                           |
 | [[Késő bb]] lesz [[est i]] [[kutya séta]]              | Later there will be an evening dog walk | [[Késő bb]] [[late r]], lesz it will be   |
-| [[Sétál unk]] [[nap on ta]] [[két szer]]               | We walk twice a day                     | [[Nap on ta]] [[két szer]] per day, twice |
+| [[Sétál unk]] [[nap on ta]] [[két szer]]               | We walk twice a day                     | [[Nap on ta]] per day, [[két szer]] twice |
 
 
 <!--
