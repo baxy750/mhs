@@ -7,7 +7,7 @@
 | [[Etet em]] a [[macská m at]]                          | I feed my cat                           | -at (obj mark)                                 |
 | [[Sétál tat om]] a [[kutyá m at]]                      | I walk my dog                           | tat = cause to                                 |
 | "Jó [[reggel t]], Bentley!"                            | "Good morning, Bentley!"                | -t (obj mark)                                  |
-| (A [[kutyá m]] neve Bentley)                           | (My dog's name is Bentley)              | -m my dog                                      |
+| (A [[kutyá m]] neve Bentley)                           | My dog's name is Bentley                | -m my dog                                      |
 | "[[Kész en]]? Akkor [[men jünk!]]"                     | "Ready? Then let's go!"                 |                                                |
 | "Vau!" mondja Bentley                                  | "Woof!" says Bentley                    | Hungarian dogs say Vau not Woof                |
 | Ma hideg van                                           | It's cold today                         |                                                |

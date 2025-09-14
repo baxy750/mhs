@@ -4,7 +4,7 @@ theme:
   name: material
   custom_dir: overrides  # <- Added for theme overrides
   font:
-    text: Inter  # Inter, Open Sans, Source Sans 3
+    text: Inter      # Open Sans, Inter,  Source Sans 3
     code: Fira Code  # (optional, if you want a nice monospace font)
 
 extra_css:
