@@ -29,20 +29,31 @@ body,
 /* this serves as a subtitle under the H1 heading */
 .md-typeset h5 {
   text-transform: none;
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-weight: normal;
   color: #666;
   margin-top: -0.2em;
-  margin-bottom: 1em;
+  margin-bottom: 1.0em;    /* was 1.0em, also try 0.4em */
 }
 
 
 /* Reduce vertical spacing in tables */
 .md-typeset table td,
 .md-typeset table th {
-  line-height: 1.3 !important;   /* tighter than 1.5 */
+  line-height: 1.2 !important;   /* tighter than 1.5 */
   padding-top: 0.0em;            /* optional: smaller padding */
   padding-bottom: 0.0em;
+}
+
+
+/* Inter font & Adobe Source Sans 3 supports variable weights, so 350 works etc */
+.md-typeset table td {
+  font-weight: 450;                   /* Safari/Chromium honor this with Inter */
+  font-variation-settings: "wght" 450;/* belt & braces */
+}
+.md-typeset table th {                /* header row */
+  font-weight: 650;                   /* Safari/Chromium honor this with Inter */
+  font-variation-settings: "wght" 650;/* belt & braces */
 }
 
 
@@ -155,6 +166,7 @@ body,
 .md-typeset table {
   table-layout: fixed;    /* prevent auto-resize on content change */
   width: 100%;            /* span full width */
+  margin-top: 0.4em;      /* reduce gap above tables, try also 1.0em */
 }
 /* Allow wrapping in table cells */
 .md-typeset table td {

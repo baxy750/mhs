@@ -1,26 +1,26 @@
 # [[Reggel i]] [[kutya séta]]
 ##### Morning dog walk
 
-| [[Magyar ul]]                                          | [[Angol ul]]                            | Jegyzet, notes                                                   |
-|--------------------------------------------------------|-----------------------------------------|-----------------------------------------------------------------|
-| Reggel [[három negy ed]] [[hét kor]]                   | 6:45 AM in the morning                  | Diary entry at 6:45 am                                           |
-| [[Etet em]] a [[macská m at]]                          | I feed my cat                           | -at (object marker)                                             |
-| [[Sétál tat om]] a [[kutyá m at]]                      | I walk my dog                           | tat = cause someone to walk                                     |
-| "Jó [[reggel t]], Bentley!"                            | "Good morning, Bentley!"                | -t (object marker)                                              |
-| (A [[kutyá m]] neve Bentley)                           | (My dog's name is Bentley)              | -m my dog                                                       |
-| "[[Kész en]]? Akkor [[men jünk!]]"                     | "Ready? Then let's go!"                 |                                                                 |
-| "Vau!" mondja Bentley                                  | "Woof!" says Bentley                    | Hungarian dogs say Vau not Woof                                 |
-| Ma hideg van                                           | It's cold today                         |                                                                 |
-| Nem [[szeret em]] a [[hideg et]]                       | I don't like the cold                   | -et (object marker)                                             |
-| "Nincs túl hideg!" mondja Bentley                      | "It's not too cold!" says Bentley       |                                                                 |
-| [[Sétál unk]] a [[park ba]]                            | We walk to the park                     | -ba = to                                                        |
-| A [[park ban]], Bentley [[minden hol]] [[szaglász ik]] | At the park, Bentley sniffs everywhere  | -ban = in/at the park, szaglászni = to sniff                    |
-| [[Ott hon]] [[etet em]] a [[kutyá t]]                  | At home I feed the dog                  |                                                                 |
-| [[El megy ek]] a [[busz megálló ba]]                   | I leave for the bus stop                | megyek = I go, [[el megyek]] = I leave (el- = out)              |
-| [[Bussz al]] [[megy ek]] [[munká ba]]                  | I go by bus to work                     | [[munká ba]] = into work                                        |
-| [[Dolgoz om]] a [[város ban]]                          | I work in the city                      |                                                                 |
-| [[Késő bb]] lesz [[est i]] [[kutya séta]]              | Later there will be an evening dog walk | [[Késő bb]] = [[late r]], lesz = it will be                     |
-| [[Sétál unk]] [[nap on ta]] [[két szer]]               | We walk twice a day                     | [[Nap on ta]] [[két szer]] = (day on each; per day) (two times) |
+| [[Magyar ul]]                                          | [[Angol ul]]                            | Jegyzet                                        |
+|--------------------------------------------------------|-----------------------------------------|------------------------------------------------|
+| Reggel [[három negy ed]] [[hét kor]]                   | 6:45 AM in the morning                  | 3 quarter 7 at                                 |
+| [[Etet em]] a [[macská m at]]                          | I feed my cat                           | -at (obj mark)                                 |
+| [[Sétál tat om]] a [[kutyá m at]]                      | I walk my dog                           | tat = cause to                                 |
+| "Jó [[reggel t]], Bentley!"                            | "Good morning, Bentley!"                | -t (obj mark)                                  |
+| (A [[kutyá m]] neve Bentley)                           | (My dog's name is Bentley)              | -m my dog                                      |
+| "[[Kész en]]? Akkor [[men jünk!]]"                     | "Ready? Then let's go!"                 |                                                |
+| "Vau!" mondja Bentley                                  | "Woof!" says Bentley                    | Hungarian dogs say Vau not Woof                |
+| Ma hideg van                                           | It's cold today                         |                                                |
+| Nem [[szeret em]] a [[hideg et]]                       | I don't like the cold                   | -et (obj mark)                                 |
+| "Nincs túl hideg!" mondja Bentley                      | "It's not too cold!" says Bentley       |                                                |
+| [[Sétál unk]] a [[park ba]]                            | We walk to the park                     | -ba = to                                       |
+| A [[park ban]], Bentley [[minden hol]] [[szaglász ik]] | At the park, Bentley sniffs everywhere  | -ban = in the park, szaglászni = to sniff      |
+| [[Ott hon]] [[etet em]] a [[kutyá t]]                  | At home I feed the dog                  |                                                |
+| [[El megy ek]] a [[busz megálló ba]]                   | I leave for the bus stop                | [[el megyek]] = I out go                       |
+| [[Bussz al]] [[megy ek]] [[munká ba]]                  | I go by bus to work                     | [[munká ba]] = to work                         |
+| [[Dolgoz om]] a [[város ban]]                          | I work in the city                      |                                                |
+| [[Késő bb]] lesz [[est i]] [[kutya séta]]              | Later there will be an evening dog walk | [[Késő bb]] = [[late r]], lesz = it will be    |
+| [[Sétál unk]] [[nap on ta]] [[két szer]]               | We walk twice a day                     | [[Nap on ta]] [[két szer]] = day on per, twice |
 
 
 <!--
