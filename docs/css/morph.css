@@ -168,10 +168,12 @@ body,
   width: 100%;            /* span full width */
   margin-top: 0.4em;      /* reduce gap above tables, try also 1.0em */
 }
-/* Allow wrapping in table cells */
+/* General table body cells */
 .md-typeset table td {
-  word-wrap: break-word;  /* allow long words to wrap */
-  white-space: normal;    /* don’t force no-wrap */
+  white-space: normal;    /* allow wrapping at spaces */
+  hyphens: none;          /* disable auto-hyphenation */
+  overflow-wrap: anywhere;/* break long words if absolutely needed */
+  word-break: normal;     /* default: breaks only at spaces/punctuation */
 }
 /* Prevent wrapping in table headers */
 .md-typeset table th {
