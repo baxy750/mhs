@@ -29,10 +29,10 @@ body,
 /* this serves as a subtitle under the H1 heading */
 .md-typeset h5 {
   text-transform: none;
-  font-size: 1.3em;
+  font-size: 1.4em;
   font-weight: normal;
   color: #666;
-  margin-top: -0.2em;
+  margin-top: -0.4em;
   margin-bottom: 1.0em;    /* was 1.0em, also try 0.4em */
 }
 
