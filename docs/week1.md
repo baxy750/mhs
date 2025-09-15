@@ -9,7 +9,7 @@
 | "Jó [[reggel t]], Bentley!"                            | "Good morning, Bentley!"                | -t (obj mark)                             |
 | A [[kutyá m]] neve Bentley                             | My dog's name is Bentley                | -m my dog                                 |
 | "[[Kész en]]? Akkor [[men jünk!]]"                     | "Ready? Then let's go!"                 |                                           |
-| "Vau!" mondja Bentley                                  | "Woof!" says Bentley                    | A magyar kutyák: vau! nem woof!           |
+| "Vau!" mondja Bentley                                  | "Woof!" says Bentley                    | A magyar [[kutyá k]]: vau! nem woof!      |
 | Ma hideg van                                           | It's cold today                         |                                           |
 | Nem [[szeret em]] a [[hideg et]]                       | I don't like the cold                   | -et (obj mark)                            |
 | "Nincs túl hideg!" mondja Bentley                      | "It's not too cold!" says Bentley       |                                           |
