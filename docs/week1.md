@@ -4,7 +4,7 @@
 | [[Magyar ul]]                                          | [[Angol ul]]                            | Jegyzet                                  |
 |--------------------------------------------------------|-----------------------------------------|------------------------------------------|
 | Reggel [[három negy ed]] [[hét kor]]                   | 6:45 AM in the morning                  | 3 quarter, 7 at                          |
-| [[Etet em]] a [[macská m at]]. "Miau!"                 | I feed my cat. Meeow!                   | -m my cat, -at (obj mark)                |
+| [[Etet em]] a [[macská m at]]. "Miau!"                 | I feed my cat. Meow!                    | -m my cat, -at (obj mark)                |
 | [[Sétál tat om]] a [[kutyá m at]]                      | I walk my dog                           | -tat- cause to walk                      |
 | "Jó [[reggel t]], Bentley!"                            | "Good morning, Bentley!"                | -t (obj mark)                            |
 | A [[kutyá m]] neve Bentley                             | My dog's name is Bentley                | -m my dog                                |
