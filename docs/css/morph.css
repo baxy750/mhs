@@ -23,7 +23,7 @@ body,
 
 /* Adjust heading spacing if desired */
 .md-typeset h1 {
-  margin-top: -0.2em;  /* *** this adjusts the H1 heading position */
+  margin-top: -0.3em;  /* *** this adjusts the H1 heading position */
   margin-bottom: 0.25em;
 }
 /* this serves as a subtitle under the H1 heading */
