@@ -1,6 +1,8 @@
-
 import re
 import markdown
+
+import yaml
+from pathlib import Path
 
 def _morph_core(*parts):
     parts = [str(p) for p in parts if p is not None]
@@ -44,9 +46,32 @@ def define_env(env):
 
     @env.macro
     def details(summary, content):
-        return f'<details><summary>{summary}</summary>{content}</details>'
+        return f'<details><summary>{summary}</summary>{content}</details>'   
 
     # no registration here; we'll use on_pre_page_macros below
+
+    @env.macro
+    def render_phrases(topic):
+        """Render a phrase table from docs/data/phrases.yml"""
+        data_path = Path("docs/data/phrases.yml")
+        with open(data_path, "r", encoding="utf-8") as f:
+            phrases = yaml.safe_load(f)
+
+        rows = phrases.get(topic, [])
+
+        # Run morph replacement on the header too
+        header = _replace_morph_brackets("| [[Magyar ul]] | [[Angol ul]] | Jegyzet |")
+        divider = "|---------------|--------------|---------|"
+
+        out = [header, divider]
+
+        for row in rows:
+            hun   = _replace_morph_brackets(row.get("hun", ""))
+            eng   = _replace_morph_brackets(row.get("eng", ""))
+            notes = _replace_morph_brackets(row.get("notes", ""))
+            out.append(f"| {hun} | {eng} | {notes} |")
+
+        return "\n".join(out)
 
 # Let mkdocs-macros call this before macros are rendered for each page
 def on_pre_page_macros(env):

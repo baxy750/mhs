@@ -8,7 +8,7 @@
 | [[Sétál tat om]] a [[kutyá m at]]                      | I walk my dog                           | -tat- cause to walk                      |
 | "Jó [[reggel t]], Bentley!"                            | "Good morning, Bentley!"                | -t (obj mark)                            |
 | A [[kutyá m]] neve Bentley                             | My dog's name is Bentley                | -m my dog                                |
-| "[[Kész en]]? Akkor [[men jünk!]]"                     | "Ready? Then let's go!"                 |                                          |
+| "Kész? Akkor [[men jünk!]]"                            | "Ready? Then let's go!"                 |                                          |
 | "Vau!" mondja Bentley                                  | "Woof!" says Bentley                    | A magyar [[kutyá k]]: vau! nem woof!     |
 | Ma hideg van                                           | It's cold today                         |                                          |
 | Nem [[szeret em]] a [[hideg et]]                       | I don't like the cold                   | -et (obj mark)                           |
@@ -21,7 +21,6 @@
 | [[Dolgoz om]] a [[város ban]]                          | I work in the city                      |                                          |
 | [[Késő bb]] lesz [[est i]] [[kutya séta]]              | Later there will be an evening dog walk | [[Késő bb]] [[late r]], lesz it will be  |
 | [[Sétál unk]] [[nap on ta]] [[két szer]]               | We walk twice a day                     | -on-ta on day, [[két szer]] 2 times      |
-
 
 <!--
 | Magyarul                   | Angolul                     | Jegyzet                            |

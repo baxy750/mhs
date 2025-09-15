@@ -1,0 +1,9 @@
+menni:
+  gloss: "to go"
+  conjugation:
+    - ["én megyek", "I go"]
+    - ["te mész", "you go"]
+    - ["ő megy", "s/he goes"]
+    - ["mi megyünk", "we go"]
+    - ["ti mentek", "you (pl) go"]
+    - ["ők mennek", "they go"]
