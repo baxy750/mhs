@@ -38,7 +38,7 @@ week1:
 
   - hun: "[[Sétál unk]] a [[park ba]]"
     eng: "We walk to the park"
-    notes: "-ba to the park"
+    notes: "-hoz to the park, -ba into the park"
 
   - hun: "A [[park ban]], Bentley [[minden hol]] [[szaglász ik]]"
     eng: "At the park, Bentley sniffs everywhere"
@@ -49,14 +49,15 @@ week1:
 
   - hun: "[[El megy ek]] a [[busz megálló ba]]"
     eng: "I leave for the bus stop"
-    notes: "[[el megyek]] I go out"
+    notes: "[[el megyek]] I go out, -ba into the bus stop"
 
   - hun: "[[Bussz al]] [[megy ek]] [[munká ba]]"
     eng: "I go by bus to work"
-    notes: "-al by bus, -ba to work"
+    notes: "-al by bus, -ba into work"
 
   - hun: "[[Dolgoz om]] a [[város ban]]"
     eng: "I work in the city"
+    notes: "-ban at/in the city"
 
   - hun: "[[Késő bb]] lesz [[est i]] [[kutya séta]]"
     eng: "Later there will be an evening dog walk"
@@ -65,16 +66,75 @@ week1:
   - hun: "[[Sétál unk]] [[nap on ta]] [[két szer]]"
     eng: "We walk twice a day"
     notes: "-on-ta on day, [[két szer]] 2 times"
+
 week2:
-  - hun: "\"Éhes vagy? Együnk!\""
-    eng: "\"Are you hungry? Let's eat!\""
+  - hun: "[[Kérdez em]] [[fiam at]]"
+    eng: "I ask my son"
+    notes: "-at (obj mark)"
+
+  - hun: "Éhes vagy? [[Egy ünk]]!"
+    eng: "Are you hungry? Let's eat!"
     notes: ""
 
-  - hun: "A fiam szomorú"
-    eng: "My son is sad"
+  - hun: "Sétálunk Kaffee Hausba"
+    eng: "We walk to the Kaffee Haus"
+    notes: "-ba into"
+
+  - hun: "Kávéház [[falu ban]] van"
+    eng: "The cafe haus is in the village"
+    notes: "-ban at/in the village, falu village"
+
+  - hun: "Ide jövünk [[sok szor]]"
+    eng: "We come here a lot"
+    notes: "[[sok szor]] many times"
+
+  - hun: "Nézzük étlapot"
+    eng: "We look at the menu"
+    notes: ""
+  - hun: "Rendelek quiche-t, salátát"
+    eng: "I order quiche and salad"
+    notes: ""
+  - hun: "Fiam rendel halat, krumplit"
+    eng: "My son orders fish and chips"
+    notes: ""
+  - hun: "[[Pincér nő]] hozza [[étel t]]"
+    eng: "The waitress brings the food"
+    notes: "-t (obj mark)"
+
+  - hun: "A [[nev e]] Heidi"
+    eng: "Her name is Heidi"
     notes: ""
 
-  - hun: "Én is szomorú vagyok"
+  - hun: "Mondja, kávéház bezár"
+    eng: "She tells us the café is closing"
+    notes: ""
+  - hun: "Harminc éve működik"
+    eng: "It has been running for 30 years"
+    notes: ""
+
+  - hun: "A fiam szomorú most"
+    eng: "My son is sad now"
+    notes: ""
+
+  - hun: "Én is szomorú"
     eng: "I'm sad too"
+    notes: ""
+
+  - hun: "Mondja, nincs másik kávéház"
+    eng: "He says there isn't another kave haus!"
+    notes: ""
+
+  - hun: "Készítünk fotókat"
+    eng: "We take photos"
+    notes: ""
+  - hun: "[[Haza sétálunk]] lassan"
+    eng: "We walk home slowly"
+    notes: ""
+  - hun: "Beszélünk a [[KaffeeHaus ról]]"
+    eng: "We talk about the kave haus"
+    notes: ""
+
+  - hun: "Megtartjuk étlapot emlékbe"
+    eng: "We keep the menu as a souvenir"
     notes: ""
 
