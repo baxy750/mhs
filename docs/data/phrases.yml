@@ -15,9 +15,9 @@ week1:
     eng: "\"Good morning, Bentley!\""
     notes: "-t (obj mark)"
 
-  - hun: "A [[kutyá m]] neve Bentley"
+  - hun: "A [[kutyá m]] [[nev e]] Bentley"
     eng: "My dog's name is Bentley"
-    notes: "-m my dog"
+    notes: "-m my dog, -e his name"
 
   - hun: "\"Kész? Akkor [[men jünk!]]\""
     eng: "\"Ready? Then let's go!\""
@@ -31,7 +31,7 @@ week1:
 
   - hun: "Nem [[szeret em]] a [[hideg et]]"
     eng: "I don't like the cold"
-    notes: "-et (obj mark)"
+    notes: "-em I don't like, -et (obj mark)"
 
   - hun: "\"Nincs túl hideg!\" mondja Bentley"
     eng: "\"It's not too cold!\" says Bentley"
@@ -44,16 +44,16 @@ week1:
     eng: "At the park, Bentley sniffs everywhere"
     notes: "-ban at/in the park, szaglászni to sniff"
 
-  - hun: "[[Ott hon]] [[etet em]] a [[kutyá t]]"
+  - hun: "Otthon [[etet em]] a [[kutyá t]]"
     eng: "At home I feed the dog"
 
   - hun: "[[El megy ek]] a [[busz megálló ba]]"
     eng: "I leave for the bus stop"
     notes: "[[el megyek]] I go out, -ba into the bus stop"
 
-  - hun: "[[Bussz al]] [[megy ek]] [[munká ba]]"
+  - hun: "[[Bus szal]] [[megy ek]] a [[munká ba]]"
     eng: "I go by bus to work"
-    notes: "-al by bus, -ba into work"
+    notes: "-al with bus (val/vel suffix with vowel nb), -ba into work"
 
   - hun: "[[Dolgoz om]] a [[város ban]]"
     eng: "I work in the city"
@@ -68,74 +68,78 @@ week1:
     notes: "-on-ta on day, [[két szer]] 2 times"
 
 week2:
-  - hun: "[[Kérdez em]] [[fiam at]]"
+  - hun: "[[Kérdez em]] a [[fiam at]]"
     eng: "I ask my son"
     notes: "-at (obj mark)"
 
   - hun: "Éhes vagy? [[Egy ünk]]!"
     eng: "Are you hungry? Let's eat!"
-    notes: ""
+    notes: "enni to eat, [[egy ünk]] we eat (imperative let us)"
 
-  - hun: "Sétálunk Kaffee Hausba"
-    eng: "We walk to the Kaffee Haus"
-    notes: "-ba into"
+  - hun: "[[Sétál unk]] a [[kávézó ba]]"
+    eng: "We walk to the café"
+    notes: "kávézó café, -ba into"
 
-  - hun: "Kávéház [[falu ban]] van"
-    eng: "The cafe haus is in the village"
-    notes: "-ban at/in the village, falu village"
+  - hun: "A kávézó a [[falu ban]] van"
+    eng: "The café is in the village"
+    notes: "-ban at/in, falu village"
 
-  - hun: "Ide jövünk [[sok szor]]"
+  - hun: "Ide [[jöv ünk]] [[sok szor]]"
     eng: "We come here a lot"
     notes: "[[sok szor]] many times"
 
-  - hun: "Nézzük étlapot"
-    eng: "We look at the menu"
-    notes: ""
-  - hun: "Rendelek [[quiche t]], salátát"
+  - hun: "[[Nézz ünk]] egy [[étlap ot]]"
+    eng: "We look at a menu"
+    notes: "egy a menu"
+
+  - hun: "[[Rendel ek]] [[quiche t]], salátát"
     eng: "I order quiche and salad"
     notes: ""
+
   - hun: "Fiam rendel [[hala t]], krumplit"
     eng: "My son orders fish and chips"
     notes: ""
-  - hun: "[[Pincér nő]] hozza [[étel t]]"
+
+  - hun: "[[Pincér nő]] hozza az [[étel t]]"
     eng: "The waitress brings the food"
-    notes: "-t (obj mark)"
+    notes: "[[Pincér nő]] waiter/waitress, -t (obj mark)"
 
   - hun: "A [[nev e]] Heidi"
     eng: "Her name is Heidi"
     notes: ""
 
-  - hun: "Mondja, kávéház bezár"
-    eng: "She tells us the café is closing"
-    notes: ""
-  - hun: "Húsz éve működik"
-    eng: "It has been running for 20 years"
-    notes: ""
+  - hun: "[[Mond ja]], a KaffeeHaus be fog zárni holnap"
+    eng: "She tells us the KaffeeHaus will close tomorrow"
+    notes: "[[be zárni]] to close; be fog zarni will close"
+
+  - hun: "Ez a kávézó húsz éve müködik"
+    eng: "This café has been running for 20 years"
+    notes: "Ez a this the"
 
   - hun: "A fiam szomorú most"
     eng: "My son is sad now"
     notes: ""
 
-  - hun: "Én is szomorú"
+  - hun: "Én is szomorú vagyok"
     eng: "I'm sad too"
     notes: ""
 
-  - hun: "Mondja, nincs másik kávéház!"
-    eng: "He says there isn't another kave haus!"
-    notes: ""
+  - hun: "Ő [[mond ja]], nincs másik KaffeeHaus!"
+    eng: "He says there isn't another KaffeeHaus!"
+    notes: "nincs there isn't, másik another"
 
-  - hun: "Készítünk fotókat"
+  - hun: "[[Készít ünk]] fotókat"
     eng: "We take photos"
     notes: ""
 
-  - hun: "Haza sétálunk lassan"
+  - hun: "[[Haz a]] [[sétál unk]] lassan"
     eng: "We walk home slowly"
-    notes: ""
+    notes: "[[Haz a]] to home, lassan slowly"
     
-  - hun: "Beszélünk a [[KaffeeHaus ról]]"
-    eng: "We talk about the kave haus"
+  - hun: "[[Beszél ünk]] a [[KaffeeHaus ról]]"
+    eng: "We talk about the KaffeeHaus"
     notes: ""
 
-  - hun: "Megtartjuk étlapot emlékbe"
+  - hun: "[[Megtart juk]] az [[étlap ot]] [[emlék be]]"
     eng: "We keep the menu as a souvenir"
-    notes: ""
+    notes: "étlap menu, emlék souvenir"
