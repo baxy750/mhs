@@ -90,19 +90,19 @@ week2:
 
   - hun: "[[Nézz ünk]] egy [[étlap ot]]"
     eng: "We look at a menu"
-    notes: "egy a menu"
+    notes: "nézni to look, egy a menu"
 
   - hun: "[[Rendel ek]] [[quiche t]], salátát"
     eng: "I order quiche and salad"
-    notes: ""
+    notes: "rendelni, to order, -t (obj mark)"
 
   - hun: "Fiam rendel [[hala t]], krumplit"
     eng: "My son orders fish and chips"
-    notes: ""
+    notes: "rendelni, to order, -t (obj mark)"
 
   - hun: "[[Pincér nő]] hozza az [[étel t]]"
     eng: "The waitress brings the food"
-    notes: "[[Pincér nő]] waiter/waitress, -t (obj mark)"
+    notes: "[[pincér nő]] waiter (nő waitress), -t (obj mark)"
 
   - hun: "A [[nev e]] Heidi"
     eng: "Her name is Heidi"
@@ -114,7 +114,7 @@ week2:
 
   - hun: "Ez a kávézó húsz éve müködik"
     eng: "This café has been running for 20 years"
-    notes: "Ez a this the"
+    notes: "ez a this the"
 
   - hun: "A fiam szomorú most"
     eng: "My son is sad now"
@@ -130,11 +130,11 @@ week2:
 
   - hun: "[[Készít ünk]] fotókat"
     eng: "We take photos"
-    notes: ""
+    notes: "késziteni to make, -k photos, -at (obj mark)"
 
   - hun: "[[Haz a]] [[sétál unk]] lassan"
     eng: "We walk home slowly"
-    notes: "[[Haz a]] to home, lassan slowly"
+    notes: "[[haz a]] to home, lassan slowly"
     
   - hun: "[[Beszél ünk]] a [[KaffeeHaus ról]]"
     eng: "We talk about the KaffeeHaus"
@@ -142,4 +142,4 @@ week2:
 
   - hun: "[[Megtart juk]] az [[étlap ot]] [[emlék be]]"
     eng: "We keep the menu as a souvenir"
-    notes: "étlap menu, emlék souvenir"
+    notes: "étlap menu, emlék souvenir, -be into memory"
