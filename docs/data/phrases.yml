@@ -91,10 +91,10 @@ week2:
   - hun: "Nézzük étlapot"
     eng: "We look at the menu"
     notes: ""
-  - hun: "Rendelek quiche-t, salátát"
+  - hun: "Rendelek [[quiche t]], salátát"
     eng: "I order quiche and salad"
     notes: ""
-  - hun: "Fiam rendel halat, krumplit"
+  - hun: "Fiam rendel [[hala t]], krumplit"
     eng: "My son orders fish and chips"
     notes: ""
   - hun: "[[Pincér nő]] hozza [[étel t]]"
@@ -120,16 +120,18 @@ week2:
     eng: "I'm sad too"
     notes: ""
 
-  - hun: "Mondja, nincs másik kávéház"
+  - hun: "Mondja, nincs másik kávéház!"
     eng: "He says there isn't another kave haus!"
     notes: ""
 
   - hun: "Készítünk fotókat"
     eng: "We take photos"
     notes: ""
-  - hun: "[[Haza sétálunk]] lassan"
+
+  - hun: "Haza sétálunk lassan"
     eng: "We walk home slowly"
     notes: ""
+    
   - hun: "Beszélünk a [[KaffeeHaus ról]]"
     eng: "We talk about the kave haus"
     notes: ""
@@ -137,4 +139,3 @@ week2:
   - hun: "Megtartjuk étlapot emlékbe"
     eng: "We keep the menu as a souvenir"
     notes: ""
-
