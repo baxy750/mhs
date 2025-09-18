@@ -1,7 +1,7 @@
 week1:
   - hun: "Reggel [[három negy ed]] [[hét kor]]"
     eng: "6:45 AM in the morning"
-    notes: "3 quarter, 7 at"
+    notes: "3 quarter 7, at"
 
   - hun: "[[Etet em]] a [[macská m at]]. \"Miau!\""
     eng: "I feed my cat. Meow!"
@@ -68,9 +68,13 @@ week1:
     notes: "-on-ta on day, [[két szer]] 2 times"
 
 week2:
-  - hun: "[[Kérdez em]] a [[fiam at]]"
+  - hun: "[[Dél ben]]: [[ebéd kor]]"
+    eng: "Noon: lunchtime"
+    notes: ""
+
+  - hun: "[[Kérdez em]] a [[fia m at]]"
     eng: "I ask my son"
-    notes: "-at (obj mark)"
+    notes: "kérdezni to ask, [[fia m]] my son, -at (obj mark)"
 
   - hun: "Éhes vagy? [[Egy ünk]]!"
     eng: "Are you hungry? Let's eat!"
