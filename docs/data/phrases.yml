@@ -149,42 +149,50 @@ week2:
     notes: "étlap menu, emlék souvenir, -be into memory"
 
 week3:
-  - hun: "Vacsora után"
-    eng: "After dinner"
-    notes: "vacsora dinner, után after"
+- hun: "Vacsora után"
+  eng: "After dinner"
 
-  - hun: ""
-    eng: "I walk with Bentley to the shop"
-    notes: ""
+- hun: "[[Fel vesz em]] a [[kabát om]]"
+  eng: "I put on my coat"
 
-  - hun: ""
-    eng: "I put on my coat"
-    notes: ""
-    
-  - hun: "Hol van a -m?"
-    eng: "Where is my hat?"
-    notes: ""
+- hun: "Hol van a [[kalap om]]?"
+  eng: "Where is my hat?"
 
-  - hun: "Itt vannak a csizmáim"
-    eng: "Here are my boots"
-    notes: ""
+- hun: "Itt vannak a [[csizmá im]]"
+  eng: "Here are my boots"
 
-  - hun: "Hol van a kulcs?"
-    eng: "Where is the key?"
-    notes: ""
+- hun: "Hol van a [[kulcs om]]?"
+  eng: "Where is my key?"
 
-  - hun: "A bolt 1 km-re van"
-    eng: "The shop is 1km away"
-    notes: ""
+- hun: "A bolt egy [[kilométer re]] van"
+  eng: "The shop is 1km away"
 
-  - hun: ""
-    eng: "At the shop I buy bread, milk, eggs and a chicken"
-    notes: ""
+- hun: "[[El sétá lok]] a [[bolt ba]] a [[kutyá m mal]]"
+  eng: "I walk to the shop with my dog"
 
-  - hun: ""
-    eng: "At the service station I buy the newspaper"
-    notes: ""
+- hun: "Ételt vásárolni a [[kutyá m nak]] [[Bentley nek]]"
+  eng: "To buy food for my dog Bentley"
 
-  - hun: ""
-    eng: "See notes I pasted into WhatsApp"
-    notes: ""
+- hun: "Neki is szüksége van [[sétá ra]]"
+  eng: "He also needs a walk"
+
+- hun: "Ezért [[el visz em]] [[magam mal]]"
+  eng: "So I take him with me"
+
+- hun: "A [[bolt ban]] [[kutya eledel t]] [[vesz ek]]"
+  eng: "At the shop I buy dog food"
+
+- hun: "Bentley a [[pad on]] ül kint"
+  eng: "Bentley sits on the bench outside"
+
+- hun: "Az [[ablak on]] [[be néz]]"
+  eng: "He looks through the window"
+
+- hun: "A [[benzinkút nál]] [[vesz ek]] az [[újság ot]]"
+  eng: "At the gas station I buy the newspaper"
+
+- hun: "A [[pult nál]] fizetek"
+  eng: "I pay at the counter"
+
+- hun: "[[Haza sétál unk]]"
+  eng: "Then we walk home"
