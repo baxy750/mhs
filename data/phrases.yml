@@ -149,50 +149,123 @@ week2:
     notes: "étlap menu, emlék souvenir, -be into memory"
 
 week3:
-- hun: "Vacsora után"
-  eng: "After dinner"
+  - hun: "Vacsora után"
+    eng: "After dinner"
 
-- hun: "[[Fel vesz em]] a [[kabát om]]"
-  eng: "I put on my coat"
+  - hun: "[[Fel vesz em]] a [[kabát om]]"
+    eng: "I put on my coat"
 
-- hun: "Hol van a [[kalap om]]?"
-  eng: "Where is my hat?"
+  - hun: "Hol van a [[kalap om]]?"
+    eng: "Where is my hat?"
 
-- hun: "Itt vannak a [[csizmá im]]"
-  eng: "Here are my boots"
+  - hun: "Itt vannak a [[csizmá im]]"
+    eng: "Here are my boots"
 
-- hun: "Hol van a [[kulcs om]]?"
-  eng: "Where is my key?"
+  - hun: "Hol van a [[kulcs om]]?"
+    eng: "Where is my key?"
 
-- hun: "A bolt egy [[kilométer re]] van"
-  eng: "The shop is 1km away"
+  - hun: "A bolt egy [[kilométer re]] van"
+    eng: "The shop is 1km away"
 
-- hun: "[[El sétá lok]] a [[bolt ba]] a [[kutyá m mal]]"
-  eng: "I walk to the shop with my dog"
+  - hun: "[[El sétá lok]] a [[bolt ba]] a [[kutyá m mal]]"
+    eng: "I walk to the shop with my dog"
 
-- hun: "Ételt vásárolni a [[kutyá m nak]] [[Bentley nek]]"
-  eng: "To buy food for my dog Bentley"
+  - hun: "Ételt vásárolni a [[kutyá m nak]] [[Bentley nek]]"
+    eng: "To buy food for my dog Bentley"
 
-- hun: "Neki is szüksége van [[sétá ra]]"
-  eng: "He also needs a walk"
+  - hun: "Neki is szüksége van [[sétá ra]]"
+    eng: "He also needs a walk"
 
-- hun: "Ezért [[el visz em]] [[magam mal]]"
-  eng: "So I take him with me"
+  - hun: "Ezért [[el visz em]] [[magam mal]]"
+    eng: "So I take him with me"
 
-- hun: "A [[bolt ban]] [[kutya eledel t]] [[vesz ek]]"
-  eng: "At the shop I buy dog food"
+  - hun: "A [[bolt ban]] [[kutya eledel t]] [[vesz ek]]"
+    eng: "At the shop I buy dog food"
 
-- hun: "Bentley a [[pad on]] ül kint"
-  eng: "Bentley sits on the bench outside"
+  - hun: "Bentley a [[pad on]] ül kint"
+    eng: "Bentley sits on the bench outside"
 
-- hun: "Az [[ablak on]] [[be néz]]"
-  eng: "He looks through the window"
+  - hun: "Az [[ablak on]] [[be néz]]"
+    eng: "He looks through the window"
 
-- hun: "A [[benzinkút nál]] [[vesz ek]] az [[újság ot]]"
-  eng: "At the gas station I buy the newspaper"
+  - hun: "A [[benzinkút nál]] [[vesz ek]] az [[újság ot]]"
+    eng: "At the gas station I buy the newspaper"
 
-- hun: "A [[pult nál]] fizetek"
-  eng: "I pay at the counter"
+  - hun: "A [[pult nál]] fizetek"
+    eng: "I pay at the counter"
 
-- hun: "[[Haza sétál unk]]"
-  eng: "Then we walk home"
+  - hun: "[[Haza sétál unk]]"
+    eng: "Then we walk home"
+
+week4:
+  - hun: "Késő este"
+    eng: "Late at night"
+
+  - hun: "A kutya ugat"
+    eng: "The dog barks"
+
+  - hun: "[[Fel ébreszt]] [[en gem]]"
+    eng: "He wakes me up"
+
+  - hun: "[[Fel kel ek]]. Mi történik?"
+    eng: "I get up. What's happening?"
+
+  - hun: "[[Ki megy ek]] a [[konyhá ba]]"
+    eng: "I go to the kitchen"
+
+  - hun: "Ki akar menni"
+    eng: "He wants to go outside"
+
+  - hun: "[[Ki nyit om]] az [[ajtó t]]"
+    eng: "I open the door"
+
+  - hun: "[[Ki megy]]"
+    eng: "He walks outside"
+
+  - hun: "[[Szaglász ik]] egy [[levél kupac ot]]"
+    eng: "He sniffs a pile of leaves"
+    notes: "szaglászni to sniff, levél leaf, kupac pile"
+
+  - hun: "[[Vár ok]] rá"
+    eng: "I wait for him"
+
+  - hun: "[[Szólít om]] [[ő t]]"
+    eng: "I call him"
+
+  - hun: "\"Gyere ide, ideje [[be men ni]]!\""
+    eng: "\"Come here, it's time to go in!\""
+
+  - hun: "Nem jön"
+    eng: "He doesn't come"
+
+  - hun: "[[Esz ik]] valamit, mi az?"
+    eng: "He's eating something, what is it?"
+    notes: "vagy: micsoda, what is it?"
+
+  - hun: "[[Oda megy ek]] [[hozzá]]"
+    eng: "I walk towards him"
+
+  - hun: "[[Csóvál ja]] a [[farká t]]"
+    eng: "He wags his tail"
+
+  - hun: "Egy [[csonto t]] [[esz ik]]!"
+    eng: "He's eating a bone!"
+
+  - hun: "Korábban [[el rejt ette]] a levelek között!"
+    eng: "He hid it earlier in the leaves!"
+
+  - hun: "[[Be megy ek]]"
+    eng: "I go inside"
+
+  - hun: "15 perccel később [[be jön]]"
+    eng: "He comes inside 15 minutes later"
+    notes: "vagy: negyed órával később [[be jön]]"
+
+  - hun: "Boldog"
+    eng: "He is happy"
+
+  - hun: "Az [[ágyá ban]] [[alsz ik]]"
+    eng: "He goes to sleep in his bed"
+
+  - hun: "[[Fárad t]] [[vagy ok]]"
+    eng: "I am tired"
