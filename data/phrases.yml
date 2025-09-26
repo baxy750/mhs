@@ -1,0 +1,275 @@
+week1:
+  - hun: "Reggel [[három negy ed]] [[hét kor]]"
+    eng: "6:45 AM in the morning"
+    notes: "3 quarter 7, at"
+
+  - hun: "[[Etet em]] a [[macská m at]]. \"Miau!\""
+    eng: "I feed my cat. \"Meow!\""
+    notes: "-m my cat, -at (obj mark)"
+
+  - hun: "[[Sétál tat om]] a [[kutyá m at]]"
+    eng: "I walk my dog"
+    notes: "-tat- cause to walk"
+
+  - hun: "\"Jó [[reggel t]], Bentley!\""
+    eng: "\"Good morning, Bentley!\""
+    notes: "-t (obj mark)"
+
+  - hun: "A [[kutyá m]] [[nev e]] Bentley"
+    eng: "My dog's name is Bentley"
+    notes: "-m my dog, -e his name"
+
+  - hun: "\"Kész? Akkor [[men jünk!]]\""
+    eng: "\"Ready? Then let's go!\""
+
+  - hun: "\"Vau!\" mondja Bentley"
+    eng: "\"Woof!\" says Bentley"
+    notes: "A magyar [[kutyá k]]: vau! nem woof!"
+
+  - hun: "Ma hideg van"
+    eng: "It's cold today"
+
+  - hun: "Nem [[szeret em]] a [[hideg et]]"
+    eng: "I don't like the cold"
+    notes: "-em I don't like, -et (obj mark)"
+
+  - hun: "\"Nincs túl hideg!\" mondja Bentley"
+    eng: "\"It's not too cold!\" says Bentley"
+
+  - hun: "[[Sétál unk]] a [[park ba]]"
+    eng: "We walk to the park"
+    notes: "-hoz to the park, -ba into the park"
+
+  - hun: "A [[park ban]], Bentley [[minden hol]] [[szaglász ik]]"
+    eng: "At the park, Bentley sniffs everywhere"
+    notes: "-ban at/in the park, szaglászni to sniff"
+
+  - hun: "Otthon [[etet em]] a [[kutyá t]]"
+    eng: "At home I feed the dog"
+
+  - hun: "[[El megy ek]] a [[busz megálló ba]]"
+    eng: "I leave for the bus stop"
+    notes: "[[el megyek]] I go out, -ba into the bus stop"
+
+  - hun: "[[Bus szal]] [[megy ek]] a [[munká ba]]"
+    eng: "I go by bus to work"
+    notes: "-al with bus (val/vel suffix with vowel nb), -ba into work"
+
+  - hun: "[[Dolgoz om]] a [[város ban]]"
+    eng: "I work in the city"
+    notes: "-ban at/in the city"
+
+  - hun: "[[Késő bb]] lesz [[est i]] [[kutya séta]]"
+    eng: "Later there will be an evening dog walk"
+    notes: "[[Késő bb]] [[late r]], lesz it will be"
+
+  - hun: "[[Sétál unk]] [[nap on ta]] [[két szer]]"
+    eng: "We walk twice a day"
+    notes: "-on-ta on day, [[két szer]] 2 times"
+
+week2:
+  - hun: "[[Dél ben]]: [[ebéd kor]]"
+    eng: "Noon: lunchtime"
+    notes: ""
+
+  - hun: "[[Kérdez em]] a [[fia m at]]"
+    eng: "I ask my son"
+    notes: "kérdezni to ask, [[fia m]] my son, -at (obj mark)"
+
+  - hun: "Éhes vagy? [[Egy ünk]]!"
+    eng: "Are you hungry? Let's eat!"
+    notes: "enni to eat, [[egy ünk]] we eat (imperative let us)"
+
+  - hun: "[[Sétál unk]] a [[kávézó ba]]"
+    eng: "We walk to the café"
+    notes: "kávézó café, -ba into"
+
+  - hun: "A kávézó a [[falu ban]] van"
+    eng: "The café is in the village"
+    notes: "-ban at/in, falu village"
+
+  - hun: "Ide [[jöv ünk]] [[sok szor]]"
+    eng: "We come here a lot"
+    notes: "[[sok szor]] many times"
+
+  - hun: "[[Nézz ünk]] egy [[étlap ot]]"
+    eng: "We look at a menu"
+    notes: "nézni to look, egy a menu"
+
+  - hun: "[[Rendel ek]] [[quiche t]], salátát"
+    eng: "I order quiche and salad"
+    notes: "rendelni, to order, -t (obj mark)"
+
+  - hun: "Fiam rendel [[hala t]], krumplit"
+    eng: "My son orders fish and chips"
+    notes: "rendelni, to order, -t (obj mark)"
+
+  - hun: "[[Pincér nő]] hozza az [[étel t]]"
+    eng: "The waitress brings the food"
+    notes: "pincér waiter (nő waitress), -t (obj mark)"
+
+  - hun: "A [[nev e]] Heidi"
+    eng: "Her name is Heidi"
+    notes: ""
+
+  - hun: "[[Mond ja]], a KaffeeHaus be fog zárni holnap"
+    eng: "She tells us the KaffeeHaus will close tomorrow"
+    notes: "[[be zárni]] to close; be fog zarni will close"
+
+  - hun: "Ez a kávézó húsz éve müködik"
+    eng: "This café has been running for 20 years"
+    notes: "ez a this the"
+
+  - hun: "A fiam szomorú most"
+    eng: "My son is sad now"
+    notes: ""
+
+  - hun: "Én is szomorú vagyok"
+    eng: "I'm sad too"
+    notes: ""
+
+  - hun: "Ő [[mond ja]], nincs másik KaffeeHaus!"
+    eng: "He says there isn't another KaffeeHaus!"
+    notes: "nincs there isn't, másik another"
+
+  - hun: "[[Készít ünk]] fotókat"
+    eng: "We take photos"
+    notes: "késziteni to make, -k photos, -at (obj mark)"
+
+  - hun: "[[Haz a]] [[sétál unk]] lassan"
+    eng: "We walk home slowly"
+    notes: "[[haz a]] to home, lassan slowly"
+    
+  - hun: "[[Beszél ünk]] a [[KaffeeHaus ról]]"
+    eng: "We talk about the KaffeeHaus"
+    notes: ""
+
+  - hun: "[[Megtart juk]] az [[étlap ot]] [[emlék be]]"
+    eng: "We keep the menu as a souvenir"
+    notes: "étlap menu, emlék souvenir, -be into memory"
+
+week3:
+  - hun: "Vacsora után"
+    eng: "After dinner"
+
+  - hun: "[[Fel vesz em]] a [[kabát om]]"
+    eng: "I put on my coat"
+
+  - hun: "Hol van a [[kalap om]]?"
+    eng: "Where is my hat?"
+
+  - hun: "Itt vannak a [[csizmá im]]"
+    eng: "Here are my boots"
+
+  - hun: "Hol van a [[kulcs om]]?"
+    eng: "Where is my key?"
+
+  - hun: "A bolt egy [[kilométer re]] van"
+    eng: "The shop is 1km away"
+
+  - hun: "[[El sétá lok]] a [[bolt ba]] a [[kutyá m mal]]"
+    eng: "I walk to the shop with my dog"
+
+  - hun: "Ételt vásárolni a [[kutyá m nak]] [[Bentley nek]]"
+    eng: "To buy food for my dog Bentley"
+
+  - hun: "Neki is szüksége van [[sétá ra]]"
+    eng: "He also needs a walk"
+
+  - hun: "Ezért [[el visz em]] [[magam mal]]"
+    eng: "So I take him with me"
+
+  - hun: "A [[bolt ban]] [[kutya eledel t]] [[vesz ek]]"
+    eng: "At the shop I buy dog food"
+
+  - hun: "Bentley a [[pad on]] ül kint"
+    eng: "Bentley sits on the bench outside"
+
+  - hun: "Az [[ablak on]] [[be néz]]"
+    eng: "He looks through the window"
+
+  - hun: "A [[benzinkút nál]] [[vesz ek]] az [[újság ot]]"
+    eng: "At the gas station I buy the newspaper"
+
+  - hun: "A [[pult nál]] fizetek"
+    eng: "I pay at the counter"
+
+  - hun: "[[Haza sétál unk]]"
+    eng: "Then we walk home"
+
+week4:
+  - hun: "Késő este"
+    eng: "Late at night"
+    notes: "title: [[éj jel]] at night, cmp [[éj szaka]] night time"
+
+  - hun: "A kutya ugat"
+    eng: "The dog barks"
+
+  - hun: "[[Fel ébreszt]] [[en gem]]"
+    eng: "He wakes me up"
+
+  - hun: "[[Fel kel ek]]. Mi történik?"
+    eng: "I get up. What's happening?"
+
+  - hun: "[[Ki megy ek]] a [[konyhá ba]]"
+    eng: "I go to the kitchen"
+
+  - hun: "Ki akar menni"
+    eng: "He wants to go outside"
+
+  - hun: "[[Ki nyit om]] az [[ajtó t]]"
+    eng: "I open the door"
+
+  - hun: "[[Ki megy]]"
+    eng: "He walks outside"
+
+  - hun: "[[Szaglász ik]] egy [[levél kupac ot]]"
+    eng: "He sniffs a pile of leaves"
+    notes: "szaglászni to sniff, levél leaf, kupac pile"
+
+  - hun: "[[Vár ok]] rá"
+    eng: "I wait for him"
+
+  - hun: "[[Szólít om]] [[ő t]]"
+    eng: "I call him"
+
+  - hun: "\"Gyere ide, ideje [[be men ni]]!\""
+    eng: "\"Come here, it's time to go in!\""
+
+  - hun: "Nem jön"
+    eng: "He doesn't come"
+
+  - hun: "[[Esz ik]] valamit, mi az?"
+    eng: "He's eating something, what is it?"
+    notes: "vagy: micsoda, what is it?"
+
+  - hun: "[[Oda megy ek]] [[hozzá]]"
+    eng: "I walk towards him"
+
+  - hun: "[[Csóvál ja]] a [[farká t]]"
+    eng: "He wags his tail"
+
+  - hun: "Egy [[csonto t]] [[esz ik]]!"
+    eng: "He's eating a bone!"
+
+  - hun: "Korábban [[el rejt ette]] a levelek között!"
+    eng: "He hid it earlier in the leaves!"
+
+  - hun: "[[Be megy ek]]"
+    eng: "I go inside"
+
+  - hun: "15 perccel később [[be jön]]"
+    eng: "He comes inside 15 minutes later"
+    notes: "vagy: negyed órával később [[be jön]]"
+
+  - hun: "Boldog"
+    eng: "He is happy"
+
+  - hun: "Az [[ágyá ban]] [[alsz ik]]"
+    eng: "He goes to sleep in his bed"
+
+  - hun: "[[Fárad t]] [[vagy ok]]"
+    eng: "I am tired"
+
+  - hun: "[[Le feksz em]]"
+    eng: "I go to bed"
