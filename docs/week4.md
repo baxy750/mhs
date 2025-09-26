@@ -1,4 +1,4 @@
-# Bentley ugat éjszaka
+# Bentley [[éj jel]] ugat
 ##### Bentley barks at night
 
 {{ render_phrases("week4") }}
