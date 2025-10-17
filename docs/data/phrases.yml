@@ -108,6 +108,10 @@ week02:
     eng: "The waitress brings the food"
     notes: "pincér waiter (nő waitress), -t (obj mark)"
 
+  - hun: "\"Tessék,\" mondja"
+    eng: "\"Here you are,\" she says"
+    notes: ""
+
   - hun: "A [[nev e]] Heidi"
     eng: "Her name is Heidi"
     notes: ""
@@ -302,7 +306,7 @@ week05:
     notes: ""
 
   - hun: "\"Két virslit kérek\""
-    eng: "\"I want two hot dogs\""
+    eng: "\"Two hot dogs please\""
     notes: "két = two, virsli-t = sausage-Obj, kérek = I request / I ask for"
 
   - hun: "Évek múlva"
