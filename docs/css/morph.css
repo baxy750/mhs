@@ -94,7 +94,7 @@ body,
 }
 
 
-/* Apply to all labels in the toggle bar such as Toggle hyphens and Expand all */
+/* Apply to all labels in the toggle bar such as Toggle hyphens and Vocab */
 .md-content label {
   font-size: 0.6rem;       /* shrink text */
 }
@@ -104,6 +104,34 @@ body,
   vertical-align: middle;  /* keep text aligned nicely */
   margin-right: 0.2em;
 }
+/* Button for the picture should match the checkboxes next to it */
+/* --- Toggle bar button ("Fotókép") --- */
+.md-content button {
+  font-size: 0.6rem;
+  padding: 0.2em 0.6em;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 0.6em;        /* lozenge shape */
+  background-color: #f8f8f8;
+  color: #222;
+  cursor: pointer;
+  transition: background-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+
+/* hover / focus feedback */
+.md-content button:hover,
+.md-content button:focus {
+  background-color: #f0f0f0;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+/* active (pressed) state */
+.md-content button:active {
+  background-color: #e6e6e6;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
 
 
 /* Make the left-hand navigation sidebar narrower (this is the list of files) */
