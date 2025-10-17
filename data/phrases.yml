@@ -1,4 +1,4 @@
-week1:
+week01:
   - hun: "Reggel [[három negy ed]] [[hét kor]]"
     eng: "6:45 AM in the morning"
     notes: "3 quarter 7, at"
@@ -67,7 +67,7 @@ week1:
     eng: "We walk twice a day"
     notes: "-on-ta on day, [[két szer]] 2 times"
 
-week2:
+week02:
   - hun: "[[Dél ben]]: [[ebéd kor]]"
     eng: "Noon: lunchtime"
     notes: ""
@@ -148,7 +148,7 @@ week2:
     eng: "We keep the menu as a souvenir"
     notes: "étlap menu, emlék souvenir, -be into memory"
 
-week3:
+week03:
   - hun: "Vacsora után"
     eng: "After dinner"
 
@@ -179,7 +179,7 @@ week3:
   - hun: "Ezért [[el visz em]] [[magam mal]]"
     eng: "So I take him with me"
 
-  - hun: "A [[bolt ban]] [[kutya eledel t]] [[vesz ek]]"
+  - hun: "A [[bolt ban]] kutya [[eledel t]] [[vesz ek]]"
     eng: "At the shop I buy dog food"
 
   - hun: "Bentley a [[pad on]] ül kint"
@@ -194,16 +194,18 @@ week3:
   - hun: "A [[pult nál]] fizetek"
     eng: "I pay at the counter"
 
-  - hun: "[[Haza sétál unk]]"
+  - hun: "[[Az utan]] haza [[sétál unk]]"
     eng: "Then we walk home"
+    notes: "[[Az utan]] after that/then"
 
-week4:
-  - hun: "Késő este"
+week04:
+  - hun: "Késő éjjel"
     eng: "Late at night"
-    notes: "title: [[éj jel]] at night, cmp [[éj szaka]] night time"
+    notes: "title: [[éj jel]] at night, cmp [[éj szaka]] evening"
 
-  - hun: "A kutya ugat"
+  - hun: "Ugat a kutya"
     eng: "The dog barks"
+    notes: "ugatni to bark"
 
   - hun: "[[Fel ébreszt]] [[en gem]]"
     eng: "He wakes me up"
@@ -230,14 +232,14 @@ week4:
   - hun: "[[Vár ok]] rá"
     eng: "I wait for him"
 
-  - hun: "[[Szólít om]] [[ő t]]"
-    eng: "I call him"
+  - hun: "[[Hívt am]] [[ő t]]"
+    eng: "I call him-Obj"
 
   - hun: "\"Gyere ide, ideje [[be men ni]]!\""
     eng: "\"Come here, it's time to go in!\""
 
-  - hun: "Nem jön"
-    eng: "He doesn't come"
+  - hun: "Nem jön Bentley"
+    eng: "Bentley doesn't come"
 
   - hun: "[[Esz ik]] valamit, mi az?"
     eng: "He's eating something, what is it?"
@@ -262,8 +264,8 @@ week4:
     eng: "He comes inside 15 minutes later"
     notes: "vagy: negyed órával később [[be jön]]"
 
-  - hun: "Boldog"
-    eng: "He is happy"
+  - hun: "Bentley boldog"
+    eng: "Bentley is happy"
 
   - hun: "Az [[ágyá ban]] [[alsz ik]]"
     eng: "He goes to sleep in his bed"
@@ -273,3 +275,105 @@ week4:
 
   - hun: "[[Le feksz em]]"
     eng: "I go to bed"
+
+week05:
+  - hun: "Miért [[tanul tok]] [[magyar ul]]?"
+    eng: "Why are you learning Hungarian?"
+    notes: "Present tense, [[tanul tok]] = you plural, [[tanul sz]] = you singular"
+
+  - hun: "Amikor egyetemista voltam Angliában"
+    eng: "When I was a student in England"
+    notes: "amikor = when, voltam = I was, [[egy etem ista]] = university, -ista = member/student"
+
+  - hun: "Egy évet Budapesten töltöttem"
+    eng: "I spent a year in Budapest"
+    notes: "évet = year-Obj, töltöttem = spent-I (past)"
+
+  - hun: "Az [[egy etem nek]] volt [[csere program ja]]"
+    eng: "The university had an exchange program"
+    notes: "egy-etem = one-institution (uni) -nek for, csere-program = exchange-program, -ja = its"
+
+  - hun: "Kicsit tanultam magyarul"
+    eng: "I learned a little Hungarian"
+    notes: "tanul-tam = learn-I (past), -ul = in (language)"
+
+  - hun: "\"Hol van a busz?\""
+    eng: "\"Where is the bus?\""
+    notes: ""
+
+  - hun: "\"Két virslit kérek\""
+    eng: "\"I want two hot dogs\""
+    notes: "két = two, virsli-t = sausage-Obj, kérek = I request / I ask for"
+
+  - hun: "Évek múlva"
+    eng: "Years later"
+    notes: "év-ek = years, [[múl va]] = after passing"
+
+  - hun: "Volt egy magyar barátom a munkahelyen"
+    eng: "I had a Hungarian friend at work"
+    notes: "volt = was/had, barát-om = friend-my, munka-hely-en = work-place-in"
+
+  - hun: "Ő kérdezte"
+    eng: "He asked"
+    notes: "kérdez-te = asked-he/she"
+
+  - hun: "\"Miért nem tanulsz újra magyarul?\""
+    eng: "\"Why don't you learn Hungarian again?\""
+    notes: "tanul-sz = learn-you, újra = again"
+
+  - hun: "Imádom a magyar hangzását"
+    eng: "I love the sound of Hungarian"
+    notes: "imád-om = love-I, hangzás-á-t = sound-its-Obj"
+
+  - hun: "Majdnem olyan szép, mint a francia"
+    eng: "It’s almost as beautiful as French"
+    notes: "majdnem = almost, olyan ... mint = as ... as"
+
+  - hun: "Nem nehéz, csak más"
+    eng: "It’s not hard, just different"
+    notes: "nem = not, nehéz = hard, csak = only/just, más = different"
+
+week06:
+  - hun: "[[Dolgoz om]] [[irodá ban]]"
+    eng: "I work in an office"
+    notes: ""
+    
+  - hun: "Van magyar [[barát nő m]]"
+    eng: "I have a Hungarian friend"
+    notes: "[[barát nő m]] female friend, -m my, [[barát om]] male friend"
+
+  - hun: "Kérdezi: \"Kérsz kávét inni?\""
+    eng: "She asks, “Want to drink coffee?”"
+    notes: ""
+
+  - hun: "Kávézunk együtt néha"
+    eng: "We have coffee together sometimes"
+    notes: ""
+
+  - hun: "Beszélünk magyar [[sütik ről]]"
+    eng: "We talk about Hungarian pastry"
+    notes: ""
+
+  - hun: "Linzer, kifli, csiga"
+    eng: "Linzer, kifli, and csiga"
+    notes: ""
+
+  - hun: "Mesél [[család járól]]"
+    eng: "She tells me about her family"
+    notes: ""
+
+  - hun: "Van egy [[vizslá juk]]"
+    eng: "They have a Pointer dog"
+    notes: "viszla = Hungarian dog breed (Pointer)"
+
+  - hun: "Ás kertben lyukakat"
+    eng: "He digs holes in the garden"
+    notes: ""
+
+  - hun: "Otthon a [[gyerek ek]] [[magyar ul]] [[beszél nek]]"
+    eng: "The children speak Hungarian at home"
+    notes: ""
+    
+  - hun: "Hamarosan új [[ház ba]] mennek"
+    eng: "They are moving house soon"
+    notes: ""
