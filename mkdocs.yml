@@ -21,10 +21,13 @@ plugins:
 nav:
   - Home: index.md
   - Journal:
-      - "Reggeli kutyaséta": week1B.md
-      - "Ebéd a KaffeeHausban": week2.md
-      - "Egy séta a boltba": week3.md
-      - "Bentley éjjel ugat": week4.md
+      - "Reggeli kutyaséta":   week01.md
+      - "A KaffeeHausban":     week02.md
+      - "Egy séta a boltba":   week03.md
+      - "Bentley éjjel ugat":  week04.md
+      - "Miért tanultok?":     week05.md
+      - "Kérsz kávét inni?":   week06.md
+      - "Tessék vigyázni":     week07.md
 
 extra:
   footer: |

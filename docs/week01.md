@@ -1,4 +1,4 @@
 # [[Reggel i]] [[kutya séta]]
 ##### Morning dog walk
 
-{{ render_phrases("week1") }}
+{{ render_phrases("week01") }}
