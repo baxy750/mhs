@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+
   const morphToggle = document.getElementById("toggle-morph");
 
   function applyToggle(checked) {
@@ -19,16 +20,20 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  const expandToggle = document.getElementById("expand-all");
-  if (expandToggle) {
-    expandToggle.addEventListener("change", function () {
-      document.querySelectorAll("details").forEach(d => {
-        d.open = expandToggle.checked;
-      });
+  const vocabToggle = document.getElementById("vocab-all");
+  if (vocabToggle) {
+    vocabToggle.addEventListener("change", function () {
+      // Show vocab logic here
+    });
+  }
+
+  const picToggle = document.getElementById("show-pic");
+  if (picToggle) {
+    picToggle.addEventListener("click", function () {
+      // Show picture logic here
     });
   }
 });
-
 
 
 
