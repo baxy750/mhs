@@ -147,8 +147,9 @@ body,
 /* Toggle bar aligned to the right of the H1 */
 .toggle-bar {
   float: right;
-  margin-top: -2.2em;   /* adjust until it lines up visually with h1 */
-  font-size: 0.8rem;    /* shrink label text */
+  margin-top: -2.2em;    /* adjust until it lines up visually with h1 */
+  margin-bottom: 1.5em;  /* was 1.0em */
+  font-size: 0.8rem;     /* shrink label text */
 }
 .toggle-bar input[type="checkbox"] {
   transform: scale(0.85);
@@ -165,8 +166,8 @@ body,
     text-align: left !important;
 
     /* tighter spacing */
-    margin-top: -1.7em !important; 
-    margin-bottom: 1.0em !important;
+    margin-top: -2.2em !important;    /* was -1.7em */
+    margin-bottom: 1.5em !important;  /* was 1.0em */
   }
   /* reduce left/right margins to give content more width */
   .md-main__inner {
