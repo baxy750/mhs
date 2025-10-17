@@ -42,9 +42,9 @@ body,
   font-weight: 500;
   color: #777;
   margin-top: -1.1em;      /* tuck closer to H5 */
-  margin-bottom: 1.0em;    /* space before the next content (table, paragraph) */
-  line-height: 1.35;
-  letter-spacing: 0.01em;
+  margin-bottom: 1.9em;    /* space before the next content (table, paragraph) */
+  /* line-height: 1.35;      */
+  /* letter-spacing: 0.01em; */
 }
 /* Optional: hide the permalink icon on H6 if you use permalinks */
 .md-typeset h5 + h6 .headerlink { display: none; }
