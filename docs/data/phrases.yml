@@ -382,3 +382,149 @@ week06:
   - hun: "Hamarosan új [[ház ba]] mennek"
     eng: "They are moving house soon"
     notes: ""
+
+week07:
+  - hun: "Reggel hat óra"
+    eng: "6am in the morning"
+
+  - hun: "[[Otthon ról]] megyek [[munká ba]]"
+    eng: "I go to work from home"
+    notes: "[[otthon ról]] from home, [[munká ba]] to work (direction)"
+
+  - hun: "[[Fel kelek]] és [[fel öltöz öm]]"
+    eng: "I get up and get dressed"
+    notes: "fel up, [[fel kel ek]] = I get up, [[fel öltöz öm]] = I get dressed"
+
+  - hun: "Még sötét van"
+    eng: "It is still dark"
+
+  - hun: "Nagyon hídeg van kint"
+    eng: "Outside it is very cold"
+
+  - hun: "Minusz húsz fok!"
+    eng: "It's minus 20 degrees!"
+    notes: "fok degree (singular)"
+
+  - hun: "[[Fel veszem]] a [[csizmá m at]]"
+    eng: "I put on my boots"
+    notes: "-m my, -at Obj"
+
+  - hun: "[[Le megyek]] a [[lift tel]]"
+    eng: "I take the lift downstairs"
+    notes: "-tel down"
+
+  - hun: "Nagyon havas kint"
+    eng: "Outside it is very snowy"
+
+  - hun: "A hó a [[térd em ig]] ér"
+    eng: "The snow is up to my knees"
+    notes: "hó snow, térd knee, -em my, -ig up to"
+    
+  - hun: "A [[metro megálló hoz]] sétálok"
+    eng: "I walk to the metro stop"
+
+  - hun: "Nincs messze (a metro)"
+    eng: "It isn't far away (the metro)"
+    notes: "messze far"
+     
+  - hun: "Metroval megyek Örs vezér [[ter ről]]"
+    eng: "I take the metro from Örs vezér [[ter e]]"
+    notes: "[[ter e]] his square (Örs) cmp Széll Kálmán tér, [[ter ről]] = take the metro from the square"
+
+  - hun: "M2-[[vonal on]] van"
+    eng: "It is on line M2"
+    notes: "-on on, vonal = line"
+
+  - hun: "A metrő nagyon zsúfolt"
+    eng: "The metro is very crowded"
+
+  - hun: "[[Minden ki]] [[munká ba megy]]"
+    eng: "Everyone is going to work"
+
+  - hun: "[[Nincs enek]] szabad helyek"
+    eng: "There are no seats free"
+
+  - hun: "Amig állok szundikálok"
+    eng: "I doze while standing up"
+    notes: "aludni to sleep, szundikalni to doze (nap like nagyanya grandmother)"
+
+  - hun: "Minden [[megálló ban]] azt mondja hogy"
+    eng: "At every stop it says:"
+    notes: "-ban at/in, megálló stop"
+
+  - hun: "\"Tessék vigyázni az ajtók záródnak\""
+    eng: "\"Please take care the doors are closing\""
+
+  - hun: "[[Le szállok]] a Széll Kálmán [tér e n]]"
+    eng: "I get off at Széll Kálmán tér"
+    notes: "[[fel szállni]] to get on, [[le szállni]] to get off, szállni to fly, [[ter e]] his square"
+
+  - hun: "A régi [[nev e]] Moszkva tér volt"
+    eng: "The old name was Moszkva tér"
+    notes: "régi old, [[nev e]] name-its, volt was"
+
+  - hun: "[[Át megyek]] a [[ter en]]"
+    eng: "I walk across the square"
+    notes: "át across, -en on the square"
+
+  - hun: "[[Fel megyek]] [[husz on öt]] [[lépcső n]]"
+    eng: "I climb up 25 steps"
+    notes: "fel = up, lépcső = stairs/steps, -n on (surface)"
+
+  - hun: "A [[Vár fok]] [[utcá n]] van egy [[büfé kocsi]]"
+    eng: "On [[Vár fok]] street there is a coffee van"
+    notes: "[[Vár fok]] utca = Castle Rise street?, -n on, büfé kocsi = buffet car/coffee van"
+
+  - hun: "A [[busz megálló]] [[közelé ben]] van"
+    eng: "It is near the bus stop"
+    notes: "[[közelé ben]] near, ben in (the vicinity of)"
+
+  - hun: "Vásárolok egy [[sütemény t]]:"
+    eng: "I buy a pastry:"
+
+  - hun: "\"Egy kakaós csigát, kérek szépen\""
+    eng: "\"A chocolate csiga, please\""
+    notes: "csiga spiral 'snail' pastry (like Danish), -t Obj"
+
+  - hun: "Vagy néha [[kérdez em]], hogy:"
+    eng: "Or sometimes I ask:"
+    notes: "kérdezni to ask"
+
+  - hun: "\"Kérek, egy mákos csigát\""
+    eng: "\"A poppy-seed csiga, please\""
+    notes: "mákos = poppy-seed, -t Obj"
+
+  - hun: "A 21-es [[bus szal]] megyek"
+    eng: "I take bus number 21"
+    notes: "21-es number 21, -es suffix for numbers"
+
+  - hun: "A busz [[fel megy]] a [[Szénchenyi-hegy re]]"
+    eng: "The bus goes up to Szénchenyi mount"
+    notes: "hegy mount/mountain, -re to (direction)"
+
+  - hun: "A busz [[fel megy]] a [[domb ra]]"
+    eng: "The bus goes up the hill"
+    notes: "domb hill eg [[rózsa domb]], -ra to (direction)"
+
+  - hun: "Eszem a [[sütemény t]] a [[buszon]]"
+    eng: "I eat the pastry on the bus"
+    notes: "-t Obj, -on on the bus"
+
+  - hun: "Ez a [[reggel i t]]!"
+    eng: "This is my breakfast!"
+
+  - hun: "[[Le szállok]] a [[fogaskerek ű]] vasút [[megálló nál]]"
+    eng: "I get off at the cogtooth railway stop"
+    notes: "fogaskerekű fernicular railway (cogtooth), fog tooth"
+
+  - hun: "Aztán egy másik [[bus szal]] megyek [[Csilleberc re]]"
+    eng: "Then I catch another bus to Csilleberc"
+    notes: "aztán then, másik another, [[bus szal]] by bus, [[Csilleberc re]] to Cs."
+
+  - hun: "Egy óra múlva érek be a [[munkahely em re]]"
+    eng: "I arrive to my work in an hour"
+    notes: "múlva after, érek be I arrive into, -em my workplace, -re to (direction)"
+
+  - hun: "Este [[haz a]] [[bus szal]] és [[metró val]] megyek"
+    eng: "In the evening I go home by bus and metro"
+    notes: "este evening, [[haz a]] to home, [[bus szal]] by bus, [[metró val]] by metro; megyek I go, or jövök I come"
