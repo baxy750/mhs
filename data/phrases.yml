@@ -348,15 +348,15 @@ week06:
     eng: "I have a Hungarian friend"
     notes: "[[barát nő m]] friend (f), -m my, [[barát om]] friend (m)"
 
-  - hun: "Kérdezi: \"Kérsz kávét inni?\""
+  - hun: "Kérdezi: \"Kérsz [[kávé t]] inni?\""
     eng: "She asks, “Want to drink coffee?”"
-    notes: ""
+    notes: "-t Obj"
 
-  - hun: "Kávézunk együtt néha"
+  - hun: "[[Kávé zunk]] együtt néha"
     eng: "We have coffee together sometimes"
-    notes: ""
+    notes: "néha sometimes"
 
-  - hun: "Beszélünk magyar [[sütik ről]]"
+  - hun: "[[Beszél ünk]] magyar [[sütik ről]]"
     eng: "We talk about Hungarian pastry"
     notes: ""
 
@@ -364,17 +364,17 @@ week06:
     eng: "Linzer, kifli, and csiga"
     notes: ""
 
-  - hun: "Mesél [[család járól]]"
+  - hun: "Mesél [[család já ról]]"
     eng: "She tells me about her family"
-    notes: ""
+    notes: "család family, -ja her, -ról about"
 
   - hun: "Van egy [[vizslá juk]]"
     eng: "They have a Pointer dog"
-    notes: "viszla = Hungarian dog breed (Pointer)"
+    notes: "viszla Hungarian Pointer dog breed"
 
-  - hun: "Ás kertben lyukakat"
+  - hun: "Ás [[kert ben]] lyukakat"
     eng: "He digs holes in the garden"
-    notes: ""
+    notes: "kert garden, -ben at/in"
 
   - hun: "Otthon a [[gyerek ek]] [[magyar ul]] [[beszél nek]]"
     eng: "The children speak Hungarian at home"
