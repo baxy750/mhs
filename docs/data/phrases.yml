@@ -5,7 +5,7 @@ week01:
 
   - hun: "[[Etet em]] a [[macská m at]]. \"Miau!\""
     eng: "I feed my cat. \"Meow!\""
-    notes: "-m my cat, -at (obj mark)"
+    notes: "-m my cat, -at Obj"
 
   - hun: "[[Sétál tat om]] a [[kutyá m at]]"
     eng: "I walk my dog"
@@ -13,7 +13,7 @@ week01:
 
   - hun: "\"Jó [[reggel t]], Bentley!\""
     eng: "\"Good morning, Bentley!\""
-    notes: "-t (obj mark)"
+    notes: "-t Obj"
 
   - hun: "A [[kutyá m]] [[nev e]] Bentley"
     eng: "My dog's name is Bentley"
@@ -31,7 +31,7 @@ week01:
 
   - hun: "Nem [[szeret em]] a [[hideg et]]"
     eng: "I don't like the cold"
-    notes: "-em I don't like, -et (obj mark)"
+    notes: "-em I don't like, -et Obj"
 
   - hun: "\"Nincs túl hideg!\" mondja Bentley"
     eng: "\"It's not too cold!\" says Bentley"
@@ -74,7 +74,7 @@ week02:
 
   - hun: "[[Kérdez em]] a [[fia m at]]"
     eng: "I ask my son"
-    notes: "kérdezni to ask, [[fia m]] my son, -at (obj mark)"
+    notes: "kérdezni to ask, [[fia m]] my son, -at Obj"
 
   - hun: "Éhes vagy? [[Egy ünk]]!"
     eng: "Are you hungry? Let's eat!"
@@ -98,15 +98,15 @@ week02:
 
   - hun: "[[Rendel ek]] [[quiche t]], salátát"
     eng: "I order quiche and salad"
-    notes: "rendelni, to order, -t (obj mark)"
+    notes: "rendelni, to order, -t Obj"
 
   - hun: "Fiam rendel [[hala t]], krumplit"
     eng: "My son orders fish and chips"
-    notes: "rendelni, to order, -t (obj mark)"
+    notes: "rendelni, to order, -t Obj"
 
   - hun: "[[Pincér nő]] hozza az [[étel t]]"
     eng: "The waitress brings the food"
-    notes: "pincér waiter (nő waitress), -t (obj mark)"
+    notes: "pincér waiter (nő waitress), -t Obj"
 
   - hun: "\"Tessék,\" mondja"
     eng: "\"Here you are,\" she says"
@@ -138,7 +138,7 @@ week02:
 
   - hun: "[[Készít ünk]] fotókat"
     eng: "We take photos"
-    notes: "késziteni to make, -k photos, -at (obj mark)"
+    notes: "késziteni to make, -k photos, -at Obj"
 
   - hun: "[[Haz a]] [[sétál unk]] lassan"
     eng: "We walk home slowly"
@@ -238,7 +238,8 @@ week04:
     eng: "I wait for him"
 
   - hun: "[[Hívt am]] [[ő t]]"
-    eng: "I call him-Obj"
+    eng: "I call him"
+    notes: "[[ő t]] him, -t Obj"
 
   - hun: "\"Gyere ide, ideje [[be men ni]]!\""
     eng: "\"Come here, it's time to go in!\""
@@ -292,7 +293,7 @@ week05:
 
   - hun: "Egy évet Budapesten töltöttem"
     eng: "I spent a year in Budapest"
-    notes: "évet = year-Obj, töltöttem = spent-I (past)"
+    notes: "évet = year Obj, töltöttem = spent-I (past)"
 
   - hun: "Az [[egy etem nek]] volt [[csere program ja]]"
     eng: "The university had an exchange program"
@@ -308,7 +309,7 @@ week05:
 
   - hun: "\"Két virslit kérek\""
     eng: "\"Two hot dogs please\""
-    notes: "két = two, virsli-t = sausage-Obj, kérek = I request / I ask for"
+    notes: "két two, [[virsli t]] sausage Obj, kérek I request / I ask for"
 
   - hun: "Évek múlva"
     eng: "Years later"
@@ -326,9 +327,9 @@ week05:
     eng: "\"Why don't you learn Hungarian again?\""
     notes: "tanul-sz = learn-you, újra = again"
 
-  - hun: "Imádom a magyar hangzását"
+  - hun: "Imádom a magyar [[hangzás á t]]"
     eng: "I love the sound of Hungarian"
-    notes: "imád-om = love-I, hangzás-á-t = sound-its-Obj"
+    notes: "[[imád om]] = I love, [[hangzás á t]] = -a its sound -t Obj"
 
   - hun: "Majdnem olyan szép, mint a francia"
     eng: "It’s almost as beautiful as French"
@@ -345,7 +346,7 @@ week06:
     
   - hun: "Van magyar [[barát nő m]]"
     eng: "I have a Hungarian friend"
-    notes: "[[barát nő m]] female friend, -m my, [[barát om]] male friend"
+    notes: "[[barát nő m]] friend (f), -m my, [[barát om]] friend (m)"
 
   - hun: "Kérdezi: \"Kérsz kávét inni?\""
     eng: "She asks, “Want to drink coffee?”"
@@ -388,7 +389,7 @@ week07:
     eng: "6am in the morning"
 
   - hun: "[[Otthon ról]] megyek [[munká ba]]"
-    eng: "I go to work from home"
+    eng: "From home I go to work"
     notes: "[[otthon ról]] from home, [[munká ba]] to work (direction)"
 
   - hun: "[[Fel kelek]] és [[fel öltöz öm]]"
@@ -429,7 +430,7 @@ week07:
      
   - hun: "Metroval megyek Örs vezér [[ter ről]]"
     eng: "I take the metro from Örs vezér [[ter e]]"
-    notes: "[[ter e]] his square (Örs) cmp Széll Kálmán tér, [[ter ről]] = take the metro from the square"
+    notes: "[[ter e]] his square (Örs) cmp Széll Kálmán tér, [[ter ről]] from the square"
 
   - hun: "M2-[[vonal on]] van"
     eng: "It is on line M2"
@@ -461,7 +462,7 @@ week07:
 
   - hun: "A régi [[nev e]] Moszkva tér volt"
     eng: "The old name was Moszkva tér"
-    notes: "régi old, [[nev e]] name-its, volt was"
+    notes: "régi old, [[nev e]] its name, volt was"
 
   - hun: "[[Át megyek]] a [[ter en]]"
     eng: "I walk across the square"
