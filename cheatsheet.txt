@@ -90,3 +90,4 @@ Other Notes
 - All work is done offline (no editing via the web UI)
 - Use "git status" to check your working tree
 - Always run commitpush.sh before publish.sh
+- Note: sometimes you need to do:  git switch main  from bash to get back on the right place
