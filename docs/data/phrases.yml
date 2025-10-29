@@ -268,10 +268,15 @@ week04:
 
   - hun: "15 perccel később [[be jön]]"
     eng: "He comes inside 15 minutes later"
-    notes: "vagy: negyed órával később [[be jön]]"
+    notes: "vagy: [[negy ed]] [[órá val]] a quarter of an hour later..."
+
+  - hun: "Bentley bent van most"
+    eng: "Bentley is inside now"
+    notes: "van IS needed for locations"
 
   - hun: "Bentley boldog"
     eng: "Bentley is happy"
+    notes: "van is not needed for adjectives"
 
   - hun: "Az [[ágyá ban]] [[alsz ik]]"
     eng: "He goes to sleep in his bed"
@@ -281,8 +286,9 @@ week04:
 
   - hun: "[[Le feksz em]]"
     eng: "I go to bed"
+    notes: "lefeküdni to lie down/go to bed, le down"
 
-week05:
+week05: 
   - hun: "Miért [[tanul tok]] [[magyar ul]]?"
     eng: "Why are you learning Hungarian?"
     notes: "Present tense, [[tanul tok]] = you plural, [[tanul sz]] = you singular"
@@ -356,6 +362,10 @@ week06:
     eng: "We have coffee together sometimes"
     notes: "néha sometimes"
 
+  - hun: "Imádom a [[kávé t]], csak decaf"
+    eng: "I love coffee, only decaf"
+    notes: "csak only; alt. de but"
+
   - hun: "[[Beszél ünk]] magyar [[sütik ről]]"
     eng: "We talk about Hungarian pastry"
     notes: ""
@@ -385,12 +395,13 @@ week06:
     notes: ""
 
 week07:
-  - hun: "Reggel hat óra"
-    eng: "6am in the morning"
+  - hun: "Reggel hat óra van"
+    eng: "It's 6am in the morning"
+    notes: "or reggel [[hat kor]]"
 
-  - hun: "[[Otthon ról]] megyek [[munká ba]]"
-    eng: "From home I go to work"
-    notes: "[[otthon ról]] from home, [[munká ba]] to work (direction)"
+#  - hun: "[[Otthon ról]] megyek a [[munká ba]]"
+#    eng: "I go to work from home"
+#    notes: "[[otthon ról]] from home, [[munká ba]] to work (direction)"
 
   - hun: "[[Fel kelek]] és [[fel öltöz öm]]"
     eng: "I get up and get dressed"
@@ -427,10 +438,14 @@ week07:
   - hun: "Nincs messze (a metro)"
     eng: "It isn't far away (the metro)"
     notes: "messze far"
-     
-  - hun: "Metroval megyek Örs vezér [[ter ről]]"
-    eng: "I take the metro from Örs vezér [[ter e]]"
-    notes: "[[ter e]] his square (Örs) cmp Széll Kálmán tér, [[ter ről]] from the square"
+
+  - hun: "Örs vezér tere a [[vég állomás]]"
+    eng: "Örs vezér tere is the terminus"
+    notes: "vég end, állomás station/stop"
+
+  - hun: "[[Metro val]] megyek az Örs vezér [[teré ről]] a [[város ba]]"
+    eng: "I take the metro from Örs vezér [[ter e]] to the city"
+    notes: "[[ter e]] his square (Örs) cmp Széll Kálmán tér, [[teré ről]] from, [[város ba]] to"
 
   - hun: "M2-[[vonal on]] van"
     eng: "It is on line M2"
@@ -447,7 +462,7 @@ week07:
 
   - hun: "Amig állok szundikálok"
     eng: "I doze while standing up"
-    notes: "aludni to sleep, szundikalni to doze (nap like nagyanya grandmother)"
+    notes: "amig while, állok I stand, aludni to sleep, szundikalni to doze (nap like nagyanya grandmother)"
 
   - hun: "Minden [[megálló ban]] azt mondja hogy"
     eng: "At every stop it says:"
@@ -456,7 +471,7 @@ week07:
   - hun: "\"Tessék vigyázni az ajtók záródnak\""
     eng: "\"Please take care the doors are closing\""
 
-  - hun: "[[Le szállok]] a Széll Kálmán [tér e n]]"
+  - hun: "[[Le szállok]] a Széll Kálmán [[tér e n]]"
     eng: "I get off at Széll Kálmán tér"
     notes: "[[fel szállni]] to get on, [[le szállni]] to get off, szállni to fly, [[ter e]] his square"
 
@@ -470,7 +485,7 @@ week07:
 
   - hun: "[[Fel megyek]] [[husz on öt]] [[lépcső n]]"
     eng: "I climb up 25 steps"
-    notes: "fel = up, lépcső = stairs/steps, -n on (surface)"
+    notes: "fel up, lépcső stairs/steps, -n on (surface)"
 
   - hun: "A [[Vár fok]] [[utcá n]] van egy [[büfé kocsi]]"
     eng: "On [[Vár fok]] street there is a coffee van"
@@ -514,13 +529,13 @@ week07:
   - hun: "Ez a [[reggel i t]]!"
     eng: "This is my breakfast!"
 
-  - hun: "[[Le szállok]] a [[fogaskerek ű]] vasút [[megálló nál]]"
-    eng: "I get off at the cogtooth railway stop"
-    notes: "fogaskerekű fernicular railway (cogtooth), fog tooth"
+  - hun: "[[Le szállok]] a [[fogaskerek ű]] [[vas út]] [[megálló nál]]"
+    eng: "I get off at the cogwheel railway stop"
+    notes: "fogaskerekű cogwheel (fernicular), fog tooth, [[vas út]] [[rail way]], -nál at"
 
   - hun: "Aztán egy másik [[bus szal]] megyek [[Csilleberc re]]"
     eng: "Then I catch another bus to Csilleberc"
-    notes: "aztán then, másik another, [[bus szal]] by bus, [[Csilleberc re]] to Cs."
+    notes: "aztán then, másik another, [[bus szal]] by bus, [[Csilleberc re]] to Cs..."
 
   - hun: "Egy óra múlva érek be a [[munkahely em re]]"
     eng: "I arrive to my work in an hour"
