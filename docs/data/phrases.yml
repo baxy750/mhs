@@ -286,7 +286,7 @@ week04:
 
   - hun: "[[Le feksz em]]"
     eng: "I go to bed"
-    notes: "lefeküdni to lie down/go to bed, le down"
+    notes: "lefeküdni to lay down/go to bed, le down"
 
 week05: 
   - hun: "Miért [[tanul tok]] [[magyar ul]]?"
@@ -409,13 +409,22 @@ week07:
 
   - hun: "Még sötét van"
     eng: "It is still dark"
+    notes: ""
+    qns:
+      - qn_hun: "Már világos van?"
+        qn_eng: "Is it daylight yet?"
+      - qn_hun: "Még mindig sötét van kint?"
+        qn_eng: "Is it still dark outside?"
+      - qn_hun: "Már felkelt a nap?"
+        qn_eng: "Has the sun come up yet?"
+    tags: [ sötét, világos, nap, fel, kelni ]
 
   - hun: "Nagyon hídeg van kint"
     eng: "Outside it is very cold"
 
   - hun: "Minusz húsz fok!"
     eng: "It's minus 20 degrees!"
-    notes: "fok degree (singular)"
+    notes: "fok degree (sing.)"
 
   - hun: "[[Fel veszem]] a [[csizmá m at]]"
     eng: "I put on my boots"
@@ -445,7 +454,7 @@ week07:
 
   - hun: "[[Metro val]] megyek az Örs vezér [[teré ről]] a [[város ba]]"
     eng: "I take the metro from Örs vezér [[ter e]] to the city"
-    notes: "[[ter e]] his square (Örs) cmp Széll Kálmán tér, [[teré ről]] from, [[város ba]] to"
+    notes: "[[ter e]] his square (Örs) cmp Széll Kálmán tér, [[teré ről]] from (note accent), [[város ba]] to"
 
   - hun: "M2-[[vonal on]] van"
     eng: "It is on line M2"
@@ -471,15 +480,27 @@ week07:
   - hun: "\"Tessék vigyázni az ajtók záródnak\""
     eng: "\"Please take care the doors are closing\""
 
-  - hun: "[[Le szállok]] a Széll Kálmán [[tér e n]]"
+  - hun: "[[Le szállok]] a Széll Kálmán [[tér en]]"
     eng: "I get off at Széll Kálmán tér"
-    notes: "[[fel szállni]] to get on, [[le szállni]] to get off, szállni to fly, [[ter e]] his square"
+    notes: "[[fel szállni]] to get on, [[le szállni]] to get off, szállni to fly, [[tér en]] at/on square"
+    qns:
+      - qn_hun: "Hol szállsz le a metróról?"
+        qn_eng: "Where do you get off the metro?"
+      - qn_hun: "Hanyadik megállónál szállsz le?"
+        qn_eng: "At which stop are you getting off?"
+    tags: [ le, nal, rol, en/on/n, szallni ]
+# my thought is that it's good to also translate the Hungarian question too
+# and then give the answer in Hungarian too
+# maybe like this:
+# Hol szállsz le a metróról?             I get off at Széll Kálmán tér
+# __where do you get off the metro?__    __Leszállok a Széll Kálmán téren__
+# still trying to work out how the design will work for these Q&A pairs
 
   - hun: "A régi [[nev e]] Moszkva tér volt"
     eng: "The old name was Moszkva tér"
     notes: "régi old, [[nev e]] its name, volt was"
 
-  - hun: "[[Át megyek]] a [[ter en]]"
+  - hun: "[[Át megyek]] a [[tér en]]"
     eng: "I walk across the square"
     notes: "át across, -en on the square"
 
@@ -497,6 +518,7 @@ week07:
 
   - hun: "Vásárolok egy [[sütemény t]]:"
     eng: "I buy a pastry:"
+    notes: "-t Obj"
 
   - hun: "\"Egy kakaós csigát, kérek szépen\""
     eng: "\"A chocolate csiga, please\""
@@ -508,7 +530,7 @@ week07:
 
   - hun: "\"Kérek, egy mákos csigát\""
     eng: "\"A poppy-seed csiga, please\""
-    notes: "mákos = poppy-seed, -t Obj"
+    notes: "mákos poppy-seed, -t Obj"
 
   - hun: "A 21-es [[bus szal]] megyek"
     eng: "I take bus number 21"
@@ -526,8 +548,9 @@ week07:
     eng: "I eat the pastry on the bus"
     notes: "-t Obj, -on on the bus"
 
-  - hun: "Ez a [[reggel i t]]!"
+  - hun: "Ez a [[reggel i]]!"
     eng: "This is my breakfast!"
+    notes: "no -t because no verb, cmp Eszem a [[reggeli t]] I eat the breakfast"
 
   - hun: "[[Le szállok]] a [[fogaskerek ű]] [[vas út]] [[megálló nál]]"
     eng: "I get off at the cogwheel railway stop"
@@ -535,12 +558,12 @@ week07:
 
   - hun: "Aztán egy másik [[bus szal]] megyek [[Csilleberc re]]"
     eng: "Then I catch another bus to Csilleberc"
-    notes: "aztán then, másik another, [[bus szal]] by bus, [[Csilleberc re]] to Cs..."
+    notes: "aztán then, másik another, [[bus szal]] by bus, [[Csilleberc re]] to Cs."
 
   - hun: "Egy óra múlva érek be a [[munkahely em re]]"
     eng: "I arrive to my work in an hour"
     notes: "múlva after, érek be I arrive into, -em my workplace, -re to (direction)"
 
-  - hun: "Este [[haz a]] [[bus szal]] és [[metró val]] megyek"
+  - hun: "Este [[haz a]] megyek [[bus szal]] és [[metró val]]"
     eng: "In the evening I go home by bus and metro"
     notes: "este evening, [[haz a]] to home, [[bus szal]] by bus, [[metró val]] by metro; megyek I go, or jövök I come"
