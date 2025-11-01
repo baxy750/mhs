@@ -34,3 +34,7 @@ git switch main
 
 echo "✅ Done. Site published at: https://baxy750.github.io/mhs/"
 echo "📂 Built files remain in: $BUILD_DIR"
+
+echo "If you see an error which leaves you on the wrong branch, use:"
+echo "  git switch main"
+echo "...to get back onto main branch"
