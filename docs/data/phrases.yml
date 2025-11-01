@@ -424,8 +424,11 @@ week07:
 
   - hun: "Mínusz tíz fok!"
     eng: "It's minus 10 degrees!"
-    notes: "fok degree (sing.)"
-    # I checked the Hungarian weather and Wikipedia
+    notes: "fok degree (sing.); [<u>winter in Budapest</u>](https://weatherspark.com/h/y/84771/1986/Historical-Weather-during-1986-in-Budapest-Hungary) & [<u>the year after</u>](https://welovebudapest.com/en/article/2024/01/10/a-look-back-at-the-cruelly-cold-winter-of-1987-in-budapest/)"
+    # I checked the Hungarian weather:
+    # https://weatherspark.com/h/y/84771/1986/Historical-Weather-during-1986-in-Budapest-Hungary
+    # The following year was even colder:
+    # https://welovebudapest.com/en/article/2024/01/10/a-look-back-at-the-cruelly-cold-winter-of-1987-in-budapest/
 
   - hun: "[[Fel veszem]] a [[csizmá m at]]"
     eng: "I put on my boots"
