@@ -422,9 +422,10 @@ week07:
   - hun: "Nagyon hídeg van kint"
     eng: "Outside it is very cold"
 
-  - hun: "Minusz húsz fok!"
-    eng: "It's minus 20 degrees!"
+  - hun: "Mínusz tíz fok!"
+    eng: "It's minus 10 degrees!"
     notes: "fok degree (sing.)"
+    # I checked the Hungarian Wikipedia page for temperature
 
   - hun: "[[Fel veszem]] a [[csizmá m at]]"
     eng: "I put on my boots"
