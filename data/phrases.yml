@@ -395,10 +395,14 @@ week06:
     notes: ""
 
 week07:
+  - hun: "Január van, tél"
+    eng: "It's January, winter"
+    notes: "tél winter, tavasz spring, nyár summer, ősz autumn"
+
   - hun: "Reggel hat óra van"
     eng: "It's 6am in the morning"
     notes: "or reggel [[hat kor]]"
-
+   
 #  - hun: "[[Otthon ról]] megyek a [[munká ba]]"
 #    eng: "I go to work from home"
 #    notes: "[[otthon ról]] from home, [[munká ba]] to work (direction)"
@@ -560,7 +564,7 @@ week07:
     eng: "I get off at the cogwheel railway stop"
     notes: "fogaskerekű cogwheel (fernicular), fog tooth, [[vas út]] [[rail way]], -nál at"
 
-  - hun: "Aztán egy másik [[bus szal]] megyek [[Csilleberc re]]"
+  - hun: "[[Az tán]] egy másik [[bus szal]] megyek [[Csilleberc re]]"
     eng: "Then I catch another bus to Csilleberc"
     notes: "aztán then, másik another, [[bus szal]] by bus, [[Csilleberc re]] to Cs."
 
