@@ -3,4 +3,4 @@ __pycache__/
 site/
 *.DS_Store
 tree/
-MHS.ZIP
+MHS*.ZIP
