@@ -8,9 +8,11 @@ set -euo pipefail
 # Stage tracked modifications / deletions / renames
 git add -u
 
-# Try to add new content files (ignore if none exist)
-git add -- '*.yml' '*.yaml' '*.html' '*.htm' '*.js' '*.css' '*.md' '*.json' \
-          '*.py' '*.png' '*.jpg' '*.jpeg' '*.gif' '*.svg' '*.webp' || true
+# Add new content in known directories (recursive, safe)
+git add assets/ docs/ overrides/ || true
+
+# Add new root-level content files (optional)
+git add *.html *.yml *.md *.sh *.py || true
 
 # Nothing staged?
 if git diff --cached --quiet; then
