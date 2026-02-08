@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
+
+cd ~/mhs
+git archive --format=zip --output=MHS.ZIP HEAD
+
+
 #set -euo pipefail
 
 ## Always run from the script's directory
