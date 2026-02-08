@@ -444,6 +444,7 @@ week07:
 
   - hun: "Nagyon havas kint"
     eng: "Outside it is very snowy"
+    notes: "havas snowy (hó snow), kint outside"
 
   - hun: "A hó a [[térd em ig]] ér"
     eng: "The snow is up to my knees"
@@ -546,7 +547,7 @@ week07:
 
   - hun: "A busz [[fel megy]] a [[Szénchenyi-hegy re]]"
     eng: "The bus goes up to Szénchenyi mount"
-    notes: "hegy mount/mountain, -re to (direction)"
+    notes: "[[fel megy]] up goes, hegy mount/mountain, -re to (direction)"
 
   - hun: "A busz [[fel megy]] a [[domb ra]]"
     eng: "The bus goes up the hill"
@@ -574,4 +575,4 @@ week07:
 
   - hun: "Este [[haz a]] megyek [[bus szal]] és [[metró val]]"
     eng: "In the evening I go home by bus and metro"
-    notes: "este evening, [[haz a]] to home, [[bus szal]] by bus, [[metró val]] by metro; megyek I go, or jövök I come"
+    notes: "este evening, [[haz a]] to home, [[bus szal]] by bus, [[metró val]] by metro; megyek I go (jövök I come)"
