@@ -3,3 +3,5 @@
 ###### [A2]
 
 {{ render_phrases("week01") }}
+
+##### Dictation
