@@ -233,3 +233,12 @@ body,
   text-underline-offset: 2px;
   color: inherit;
 }
+/* ensure anchors land near the top of the viewport (adjust 4rem to your header height) */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  scroll-margin-top: 4rem;
+}
