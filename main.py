@@ -71,7 +71,10 @@ def define_env(env):
             notes = _replace_morph_brackets(row.get("notes", ""))
             out.append(f"| {hun} | {eng} | {notes} |")
 
-        return "\n".join(out)
+        # Convert the generated markdown table to HTML and wrap it in a container
+        table_md = "\n".join(out)
+        table_html = markdown.markdown(table_md, extensions=["tables"]) if hasattr(markdown, 'markdown') else markdown(table_md)
+        return f'<div class="phrases-wrapper">{table_html}</div>'
 
 # Let mkdocs-macros call this before macros are rendered for each page
 def on_pre_page_macros(env):

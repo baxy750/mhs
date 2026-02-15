@@ -56,3 +56,96 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script>
 -->
+<script>
+// Collapse everything above a heading and add a small toggle so the heading moves to the top
+document.addEventListener('click', function (ev) {
+  const a = ev.target.closest && ev.target.closest('a.toggle-link');
+  if (!a) return;
+  const href = a.getAttribute('href') || '';
+  if (!href.startsWith('#')) return;
+  const id = href.slice(1);
+  const target = document.getElementById(id);
+  if (!target) return;
+  ev.preventDefault();
+  collapseAbove(target);
+  // jump to the id so it sits at the top (allow layout to update first)
+  setTimeout(() => { target.scrollIntoView({ behavior: 'auto', block: 'start' }); }, 120);
+});
+
+function collapseAbove(targetEl) {
+  // Find page content container; prefer .md-typeset or .md-content
+  const page = targetEl.closest('.md-typeset') || targetEl.closest('.md-content') || document.querySelector('.md-typeset') || document.body;
+  // Prefer collapsing the rendered phrases table if it appears before the target
+  const wrappers = Array.from(page.querySelectorAll('.phrases-wrapper'));
+  let candidate = null;
+  for (const w of wrappers) {
+    // if wrapper is before the target in the document
+    if (w.compareDocumentPosition(targetEl) & Node.DOCUMENT_POSITION_FOLLOWING) {
+      candidate = w; // choose the last matching (closest before target)
+    }
+  }
+  if (candidate) {
+    // toggle collapsed state
+    const already = candidate.classList.contains('collapsed');
+    candidate.classList.add('collapsed');
+    // add a small expand toggle if not present
+    if (!candidate._hasToggle) {
+      const toggle = document.createElement('button');
+      toggle.className = 'top-collapse-toggle';
+      toggle.setAttribute('aria-expanded', 'false');
+      toggle.title = 'Toggle phrases';
+      // initial text: 'Show' when collapsed, 'Hide' when expanded
+      const isCollapsedInit = candidate.classList.contains('collapsed');
+      toggle.textContent = isCollapsedInit ? 'Show content' : 'Hide content';
+      toggle.addEventListener('click', function () {
+        const isCollapsed = candidate.classList.toggle('collapsed');
+        this.setAttribute('aria-expanded', (!isCollapsed).toString());
+        this.textContent = isCollapsed ? 'Show content' : 'Hide content';
+        // do not scroll on toggle click to avoid jumps
+      });
+      // place the toggle immediately before the phrases wrapper so it sits above the table
+      if (candidate.parentNode) candidate.parentNode.insertBefore(toggle, candidate);
+      candidate._hasToggle = true;
+    }
+    return;
+  }
+
+  // Fallback: collapse everything above the target (legacy behavior)
+  let existing = page.querySelector('.top-collapse-wrapper');
+  if (existing) {
+    existing.classList.add('collapsed');
+    return;
+  }
+
+  const children = Array.from(page.children);
+  const toWrap = [];
+  for (const ch of children) {
+    if (ch.contains(targetEl) || ch === targetEl) break;
+    toWrap.push(ch);
+  }
+  if (toWrap.length === 0) return; // nothing to collapse
+
+  const wrapper = document.createElement('div');
+  wrapper.className = 'top-collapse-wrapper collapsed';
+  const first = toWrap[0];
+  page.insertBefore(wrapper, first);
+  toWrap.forEach(n => wrapper.appendChild(n));
+
+  const toggle = document.createElement('button');
+  toggle.className = 'top-collapse-toggle';
+  toggle.setAttribute('aria-expanded', 'false');
+  toggle.title = 'Toggle collapsed top content';
+  // initial text based on collapsed state
+  const isCollapsedInit = wrapper.classList.contains('collapsed');
+  toggle.textContent = isCollapsedInit ? 'Show' : 'Hide';
+  toggle.addEventListener('click', function () {
+    const expanded = wrapper.classList.toggle('collapsed');
+    const isCollapsed = wrapper.classList.contains('collapsed');
+    this.setAttribute('aria-expanded', (!isCollapsed).toString());
+    this.textContent = isCollapsed ? 'Show' : 'Hide';
+    // do not scroll on toggle click
+  });
+  // place toggle before the wrapper so it sits above the wrapped content
+  wrapper.parentNode.insertBefore(toggle, wrapper);
+}
+</script>

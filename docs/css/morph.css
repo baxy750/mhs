@@ -156,6 +156,64 @@ body,
   vertical-align: middle;
   margin-right: 0.2em;
 }
+/* Collapsible top section used to hide everything above a target heading (Dictation) */
+.top-collapse-wrapper {
+  overflow: hidden;
+  transition: max-height 0.28s ease;
+  max-height: 9999px; /* default expanded */
+}
+.top-collapse-wrapper.collapsed {
+  max-height: 0.9rem; /* collapsed to a small bar */
+}
+.top-collapse-toggle {
+  /* plain underlined text (no button chrome). Adjust spacing with the CSS variables below. */
+  all: unset; /* remove native button styles */
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  font-size: 0.9rem; /* match .toggle-link */
+  font-family: inherit;
+  color: inherit;
+  cursor: pointer;
+  display: inline-block; /* behaves like text */
+  margin-top: var(--phrases-toggle-margin-top, -0.5rem);
+  margin-bottom: var(--phrases-toggle-margin-bottom, 0.5rem);
+  margin-left: var(--phrases-toggle-margin-left, -0.25rem);
+  padding: 0;
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+.top-collapse-toggle:focus { outline: 1px dotted rgba(0,0,0,0.25); }
+.top-collapse-toggle:hover { background: transparent !important; box-shadow: none !important; }
+/* make the control look like the top toggle-link (underlined) and stable width */
+.top-collapse-toggle {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  font-size: 0.9rem; /* match .toggle-link size */
+  display: block;
+  min-width: 3.2rem; /* reserve space to avoid small shifts */
+}
+
+/* Avoid horizontal page shifts when scrollbar appears/disappears */
+html { scrollbar-gutter: stable; }
+/* Fallback for older browsers: always reserve vertical scrollbar space */
+body { overflow-y: scroll; }
+
+/* phrases-wrapper collapse (used to hide the rendered phrases table) */
+.phrases-wrapper {
+  transition: max-height 0.28s ease, opacity 0.2s ease;
+  max-height: 2000px;
+  overflow: hidden;
+}
+.phrases-wrapper.collapsed {
+  max-height: 0; /* hide completely */
+  opacity: 0;
+  padding: 0 !important;
+  margin: 0 !important;
+}
 /* Mobile: toggles left, above the heading, tighter margins */
 /*@media screen and (max-width: 76.1875em), screen and (max-width: 1219px) {*/
 @media screen and (max-width: 768px) {
@@ -241,4 +299,16 @@ body,
 .md-typeset h5,
 .md-typeset h6 {
   scroll-margin-top: 4rem;
+}
+
+/* pull phrases table up slightly */
+.phrases-wrapper {
+  margin-top: -1rem; /* try -0.2rem, -0.4rem, -0.8rem until it looks right */
+}
+/* make the header cells a bit larger and bolder */
+.phrases-wrapper table th {
+  font-size: 0.7rem;      /* increase slightly (adjust 1.00 -> 1.1 as needed) */
+  /*font-weight: 600;*/        /* heavier weight */
+  /*padding-bottom: 0.35rem;*/ /* a bit more breathing room */
+  /*padding-left: -5rem;*/
 }
