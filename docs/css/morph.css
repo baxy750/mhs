@@ -225,3 +225,11 @@ body,
   white-space: nowrap;
   word-break: keep-all;    /* for Asian languages, but also prevents Safari odd breaks */
 }
+
+/* Style for anchor link (e.g. Dictation) in the toggle button bar at top of page */
+.toggle-link {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  color: inherit;
+}
