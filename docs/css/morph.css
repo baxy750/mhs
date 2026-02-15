@@ -307,7 +307,7 @@ body { overflow-y: scroll; }
 }
 /* make the header cells a bit larger and bolder */
 .phrases-wrapper table th {
-  font-size: 0.7rem;      /* increase slightly (adjust 1.00 -> 1.1 as needed) */
+  font-size: 0.675rem;      /* increase slightly (adjust 1.00 -> 1.1 as needed) */
   /*font-weight: 600;*/        /* heavier weight */
   /*padding-bottom: 0.35rem;*/ /* a bit more breathing room */
   /*padding-left: -5rem;*/
