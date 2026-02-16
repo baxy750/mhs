@@ -312,3 +312,38 @@ body { overflow-y: scroll; }
   /*padding-bottom: 0.35rem;*/ /* a bit more breathing room */
   /*padding-left: -5rem;*/
 }
+
+/* Mobile: avoid Dictation header overlapping the phrases table */
+@media (max-width: 768px) {
+  /* Remove any negative top offset for large headings on narrow screens */
+  .md-typeset h1,
+  .md-typeset h2,
+  .md-typeset h3,
+  .md-typeset h4,
+  .md-typeset h5,
+  .md-typeset h6 {
+    margin-top: 0 !important;
+    scroll-margin-top: 5.5rem; /* push anchors down so heading is clearly visible */
+  }
+
+  /* Make sure the toggle bar doesn't sit above page content on mobile */
+  .toggle-bar {
+    float: none !important;
+    position: relative;
+    z-index: 20; /* above content but below modals */
+    margin-top: 0.25rem !important;
+  }
+
+  /* Ensure phrases block has a little breathing room at the top on mobile */
+  .phrases-wrapper {
+    padding-top: 0.45rem; /* tune this value (0.2–0.8rem) to your taste */
+  }
+
+  /* Show/Hide label spacing tuned for mobile */
+  .top-collapse-toggle {
+    display: inline-block;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    font-size: 0.9rem;
+  }
+}
