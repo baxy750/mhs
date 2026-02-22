@@ -325,8 +325,8 @@ body { overflow-y: scroll; }
   .md-typeset h5,
   .md-typeset h6 {
     margin-top: 0 !important;
-    scroll-margin-top: 5.5rem; /* push anchors down so heading is clearly visible */
-  }
+    scroll-margin-top: 6rem; /* push anchors down so heading is clearly visible; increased for small mobile headers */
+  } /*** was 5.5 */
 
   /* Make sure the toggle bar doesn't sit above page content on mobile */
   .toggle-bar {
@@ -338,8 +338,8 @@ body { overflow-y: scroll; }
 
   /* Ensure phrases block has a little breathing room at the top on mobile */
   .phrases-wrapper {
-    padding-top: 0.45rem; /* tune this value (0.2–0.8rem) to your taste */
-  }
+    padding-top: 0.9rem; /* tune this value (0.2–1.0rem) to your taste; increased to avoid overlap on small screens */
+  } /*** was 0.45 */
 
   /* Show/Hide label spacing tuned for mobile */
   .top-collapse-toggle {
@@ -348,4 +348,9 @@ body { overflow-y: scroll; }
     margin-bottom: 0.2rem;
     font-size: 0.9rem;
   }
-}
+
+  /* Hide nested navigation sublists on narrow screens so the mobile menu doesn't show section subheadings */
+  .md-nav__list .md-nav__item--nested .md-nav__sublist {
+    display: none !important;
+  }
+} /*** new */
