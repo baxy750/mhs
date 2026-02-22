@@ -226,6 +226,8 @@ body { overflow-y: scroll; }
     /* tighter spacing */
     margin-top: -2.2em !important;    /* was -1.7em */
     margin-bottom: 1.5em !important;  /* was 1.0em */
+    /* ensure mobile nav overlay sits above the toggle-bar */
+    z-index: auto !important;
   }
   /* reduce left/right margins to give content more width */
   .md-main__inner {
