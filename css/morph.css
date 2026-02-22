@@ -1,0 +1,359 @@
+/* Tufte-inspired color scheme */
+body,
+.md-main,
+.md-content {
+  background-color: #fffff8 !important;  /* off-white page background */
+  color: #111111 !important;             /* off-black text */
+}
+/* Make sure Markdown content uses off-black text */
+.md-typeset {
+  color: #111111 !important;
+}
+/* Also override sidebar backgrounds if you want them matching */
+.md-sidebar--primary,
+.md-sidebar--secondary {
+  background-color: #fffff8 !important;
+}
+
+
+/* Optional styling for morph spans */
+[data-hyphen] {
+  cursor: pointer;
+}
+
+/* Adjust heading spacing if desired */
+.md-typeset h1 {
+  margin-top: -0.3em;  /* *** this adjusts the H1 heading position */
+  margin-bottom: 0.25em;
+  font-weight: normal;
+}
+/* this serves as a subtitle under the H1 heading */
+.md-typeset h5 {
+  text-transform: none;
+  font-size: 1.4em;
+  font-weight: normal;
+  color: #666;
+  margin-top: -0.4em;
+  margin-bottom: 1.0em;    /* was 1.0em, also try 0.4em */
+}
+/* H6 = small subtext directly under H5 */
+.md-typeset h5 + h6 {
+  font-size: 0.7rem;      /* small, readable */
+  font-weight: 500;
+  color: #777;
+  margin-top: -1.1em;      /* tuck closer to H5 */
+  margin-bottom: 1.9em;    /* space before the next content (table, paragraph) */
+  /* line-height: 1.35;      */
+  /* letter-spacing: 0.01em; */
+}
+/* Optional: hide the permalink icon on H6 if you use permalinks */
+.md-typeset h5 + h6 .headerlink { display: none; }
+/* Optional: on very small screens, give a touch more line height */
+@media (max-width: 768px) {
+  .md-typeset h5 + h6 { line-height: 1.4; }
+}
+
+/* Reduce vertical spacing in tables */
+.md-typeset table td,
+.md-typeset table th {
+  line-height: 1.2 !important;   /* tighter than 1.5 */
+  padding-top: 0.0em;            /* optional: smaller padding */
+  padding-bottom: 0.0em;
+}
+
+
+/* Inter font & Adobe Source Sans 3 supports variable weights, so 350 works etc */
+.md-typeset table td {
+  font-weight: 450;                   /* Safari/Chromium honor this with Inter */
+  font-variation-settings: "wght" 450;/* belt & braces */
+}
+.md-typeset table th {                /* header row */
+  font-weight: 650;                   /* Safari/Chromium honor this with Inter */
+  font-variation-settings: "wght" 650;/* belt & braces */
+}
+
+
+/* Remove all table borders */
+.md-typeset__table table th,
+.md-typeset__table table td {
+  border: none !important;
+}
+/* remove the faint row separators */
+.md-typeset__table table,
+.md-typeset__table table tr {
+  border: none !important;
+}
+
+
+/* remove the TOC column and use the space */
+.md-sidebar--secondary {
+  display: none !important;
+}
+.md-content {
+  max-width: 100% !important;
+}
+
+
+/* Apply to all labels in the toggle bar such as Toggle hyphens and Vocab */
+.md-content label {
+  font-size: 0.6rem;       /* shrink text */
+}
+/* and the checkbox*/
+.md-content label input[type="checkbox"] {
+  transform: scale(0.95);   /* shrink checkbox box */
+  vertical-align: middle;  /* keep text aligned nicely */
+  margin-right: 0.2em;
+}
+/* Button for the picture should match the checkboxes next to it */
+/* --- Toggle bar button ("Fotókép") --- */
+.md-content button {
+  font-size: 0.6rem;
+  padding: 0.2em 0.6em;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 0.6em;        /* lozenge shape */
+  background-color: #f8f8f8;
+  color: #222;
+  cursor: pointer;
+  transition: background-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+
+/* hover / focus feedback */
+.md-content button:hover,
+.md-content button:focus {
+  background-color: #f0f0f0;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+/* active (pressed) state */
+.md-content button:active {
+  background-color: #e6e6e6;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+
+
+/* Make the left-hand navigation sidebar narrower (this is the list of files) */
+.md-sidebar--primary {
+  width: 10rem;   /* try 12rem (~192px) instead of 15rem */
+}
+/* Ensure the main content shifts accordingly */
+.md-main__inner {
+  margin-left: 2rem;
+}
+
+
+/* Toggle bar aligned to the right of the H1 */
+.toggle-bar {
+  float: right;
+  margin-top: -2.2em;    /* adjust until it lines up visually with h1 */
+  margin-bottom: 1.5em;  /* was 1.0em */
+  font-size: 0.8rem;     /* shrink label text */
+}
+.toggle-bar input[type="checkbox"] {
+  transform: scale(0.85);
+  vertical-align: middle;
+  margin-right: 0.2em;
+}
+/* Collapsible top section used to hide everything above a target heading (Dictation) */
+.top-collapse-wrapper {
+  overflow: hidden;
+  transition: max-height 0.28s ease;
+  max-height: 9999px; /* default expanded */
+}
+.top-collapse-wrapper.collapsed {
+  max-height: 0.9rem; /* collapsed to a small bar */
+}
+.top-collapse-toggle {
+  /* plain underlined text (no button chrome). Adjust spacing with the CSS variables below. */
+  all: unset; /* remove native button styles */
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  font-size: 0.9rem; /* match .toggle-link */
+  font-family: inherit;
+  color: inherit;
+  cursor: pointer;
+  display: inline-block; /* behaves like text */
+  margin-top: var(--phrases-toggle-margin-top, -0.5rem);
+  margin-bottom: var(--phrases-toggle-margin-bottom, 0.5rem);
+  margin-left: var(--phrases-toggle-margin-left, -0.25rem);
+  padding: 0;
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+.top-collapse-toggle:focus { outline: 1px dotted rgba(0,0,0,0.25); }
+.top-collapse-toggle:hover { background: transparent !important; box-shadow: none !important; }
+/* make the control look like the top toggle-link (underlined) and stable width */
+.top-collapse-toggle {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  font-size: 0.9rem; /* match .toggle-link size */
+  display: block;
+  min-width: 3.2rem; /* reserve space to avoid small shifts */
+}
+
+/* Avoid horizontal page shifts when scrollbar appears/disappears */
+html { scrollbar-gutter: stable; }
+/* Fallback for older browsers: always reserve vertical scrollbar space */
+body { overflow-y: scroll; }
+
+/* phrases-wrapper collapse (used to hide the rendered phrases table) */
+.phrases-wrapper {
+  transition: max-height 0.28s ease, opacity 0.2s ease;
+  max-height: 2000px;
+  overflow: hidden;
+}
+.phrases-wrapper.collapsed {
+  max-height: 0; /* hide completely */
+  opacity: 0;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+/* Mobile: toggles left, above the heading, tighter margins */
+/*@media screen and (max-width: 76.1875em), screen and (max-width: 1219px) {*/
+@media screen and (max-width: 768px) {
+  .toggle-bar {
+    float: none !important;     
+    clear: both !important;     
+    display: block !important;  
+    text-align: left !important;
+
+    /* tighter spacing */
+    margin-top: -2.2em !important;    /* was -1.7em */
+    margin-bottom: 1.5em !important;  /* was 1.0em */
+    /* ensure mobile nav overlay sits above the toggle-bar */
+    z-index: auto !important;
+  }
+  /* reduce left/right margins to give content more width */
+  .md-main__inner {
+    margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
+  }
+  /* align tables with content edge */
+  .md-typeset__table {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .md-typeset__table table {
+    width: 100% !important;
+    display: table !important;   /* override theme's block display */
+  }
+}
+
+
+/* Remove the default Material nav chevron */
+.md-nav__item--nested > .md-nav__link::after {
+  content: none !important;       /* remove generated pseudo-element */
+  mask-image: none !important;
+  -webkit-mask-image: none !important;
+  background: none !important;
+}
+/* Add our own inline arrow */
+.md-nav__item--nested > .md-nav__link {
+  display: inline-flex;           /* let text + arrow flow together */
+  align-items: center;
+}
+.md-nav__item--nested > .md-nav__link::after {
+  content: "›";                   /* simple chevron */
+  font-size: 0.9em;               /* adjust size relative to text */
+  margin-left: 0.3em;
+}
+
+
+/* Make phrase tables stable during morph toggle */
+.md-typeset table {
+  table-layout: fixed;    /* prevent auto-resize on content change */
+  width: 100%;            /* span full width */
+  margin-top: 0.4em;      /* reduce gap above tables, try also 1.0em */
+}
+/* General table body cells */
+.md-typeset table td {
+  white-space: normal;    /* allow wrapping at spaces */
+  hyphens: none;          /* disable auto-hyphenation */
+  overflow-wrap: anywhere;/* break long words if absolutely needed */
+  word-break: normal;     /* default: breaks only at spaces/punctuation */
+}
+/* Prevent wrapping in table headers */
+.md-typeset table th {
+  white-space: nowrap;
+  word-break: keep-all;    /* for Asian languages, but also prevents Safari odd breaks */
+}
+
+/* Style for anchor link (e.g. Dictation) in the toggle button bar at top of page */
+.toggle-link {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  color: inherit;
+}
+/* ensure anchors land near the top of the viewport (adjust 4rem to your header height) */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  scroll-margin-top: 4rem;
+}
+
+/* pull phrases table up slightly */
+.phrases-wrapper {
+  margin-top: -1rem; /* try -0.2rem, -0.4rem, -0.8rem until it looks right */
+}
+/* make the header cells a bit larger and bolder */
+.phrases-wrapper table th {
+  font-size: 0.675rem;      /* increase slightly (adjust 1.00 -> 1.1 as needed) */
+  /*font-weight: 600;*/        /* heavier weight */
+  /*padding-bottom: 0.35rem;*/ /* a bit more breathing room */
+  /*padding-left: -5rem;*/
+}
+
+/* Mobile: avoid Dictation header overlapping the phrases table */
+@media (max-width: 768px) {
+  /* Remove any negative top offset for large headings on narrow screens */
+  .md-typeset h1,
+  .md-typeset h2,
+  .md-typeset h3,
+  .md-typeset h4,
+  .md-typeset h5,
+  .md-typeset h6 {
+    margin-top: 0 !important;
+  scroll-margin-top: 7rem; /* push anchors down so heading is clearly visible; increased for small mobile headers */
+  } /*** was 5.5 */
+
+  /* Make sure the toggle bar doesn't sit above page content on mobile */
+  .toggle-bar {
+    float: none !important;
+    position: relative;
+    z-index: 20; /* above content but below modals */
+    margin-top: 0.25rem !important;
+  }
+
+  /* Ensure phrases block has a little breathing room at the top on mobile */
+  .phrases-wrapper {
+  padding-top: 1rem; /* tune this value (0.2–1.2rem) to your taste; increased to avoid overlap on small screens */
+  } /*** was 0.45 */
+
+  /* Show/Hide label spacing tuned for mobile */
+  .top-collapse-toggle {
+    display: inline-block;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    font-size: 0.9rem;
+  }
+
+  /* Hide nested navigation sublists on narrow screens so the mobile menu doesn't show section subheadings */
+  /* Cover multiple possible theme structures used for the mobile overlay */
+  .md-nav__sublist,
+  .md-nav__list .md-nav__item--nested .md-nav__sublist,
+  .md-header-nav .md-nav__sublist {
+    display: none !important;
+  }
+} /*** new */
