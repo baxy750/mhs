@@ -68,8 +68,34 @@ document.addEventListener('click', function (ev) {
   if (!target) return;
   ev.preventDefault();
   collapseAbove(target);
-  // jump to the id so it sits at the top (allow layout to update first)
-  setTimeout(() => { target.scrollIntoView({ behavior: 'auto', block: 'start' }); }, 120);
+  // After layout updates (collapse), do a precise scroll so the heading sits below
+  // any fixed header or injected toggle. scrollIntoView is inconsistent across browsers
+  // so compute coordinates and scroll by an offset.
+  setTimeout(() => {
+    try {
+      // height of any page header (theme-dependent)
+      const header = document.querySelector('.md-header') || document.querySelector('header') || document.querySelector('.md-nav');
+      const headerHeight = header ? header.getBoundingClientRect().height : 0;
+
+      // if a top-collapse-toggle was inserted before the collapsed block, account for its height
+      // find a nearby toggle element that may sit above the target
+      let nearbyToggle = null;
+      const prev = target.previousElementSibling;
+      if (prev && prev.classList && prev.classList.contains('top-collapse-toggle')) nearbyToggle = prev;
+      // also check one node earlier in case the DOM order differs
+      const prev2 = prev && prev.previousElementSibling;
+      if (!nearbyToggle && prev2 && prev2.classList && prev2.classList.contains('top-collapse-toggle')) nearbyToggle = prev2;
+      const toggleHeight = nearbyToggle ? nearbyToggle.getBoundingClientRect().height : 0;
+
+      // minimum offset so small headers still get space (24px) plus a small gap
+      const offset = Math.ceil(headerHeight + toggleHeight + 12);
+      const top = target.getBoundingClientRect().top + window.scrollY - offset;
+      window.scrollTo({ top: Math.max(0, top), behavior: 'auto' });
+    } catch (err) {
+      // fallback to a simple scrollIntoView if anything goes wrong
+      target.scrollIntoView({ behavior: 'auto', block: 'start' });
+    }
+  }, 140); /*** new */
 });
 
 function collapseAbove(targetEl) {
