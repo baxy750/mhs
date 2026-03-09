@@ -161,7 +161,7 @@ html { scrollbar-gutter: stable; }
 /* Phrases table collapse */
 .phrases-wrapper {
   transition: max-height 0.28s ease, opacity 0.2s ease;
-  max-height: 2000px;
+  max-height: 9999px;
   overflow: hidden;
   margin-top: -1rem;
   margin-bottom: 1rem; /* compensates for the -1rem top margin shifting Dictation H5 upward */
