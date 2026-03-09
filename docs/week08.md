@@ -1,4 +1,4 @@
-# [[Magyar ul]] [[besz él]] Yoda
+# [[Magyar ul]] [[besz él]] Yodá
 ##### In Hungarian he speaks Yoda
 ###### [A1]
 
