@@ -452,6 +452,7 @@ week07:
     
   - hun: "A [[metro megálló hoz]] sétálok"
     eng: "I walk to the metro stop"
+    notes: "megálló stop, -hoz to"
 
   - hun: "Nincs messze (a metro)"
     eng: "It isn't far away (the metro)"
@@ -459,7 +460,7 @@ week07:
 
   - hun: "Örs vezér tere a [[vég állomás]]"
     eng: "Örs vezér tere is the terminus"
-    notes: "vég end, állomás station/stop"
+    notes: "vég end, állomás station/stop (terminus)"
 
   - hun: "[[Metro val]] megyek az Örs vezér [[teré ről]] a [[város ba]]"
     eng: "I take the metro from Örs vezér [[ter e]] to the city"
