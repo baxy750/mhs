@@ -4,4 +4,3 @@
 
 {{ render_phrases("week07") }}
 
-##### Dictation
