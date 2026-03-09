@@ -1,1 +1,1 @@
-# Magyar három szóban
+# Magyarul három szóban
