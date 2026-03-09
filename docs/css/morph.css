@@ -156,7 +156,7 @@ body, .md-main, .md-content {
 .top-collapse-toggle:hover { background: transparent !important; box-shadow: none !important; }
 
 html { scrollbar-gutter: stable; }
-body { overflow-y: scroll; }
+/* body { overflow-y: scroll; } -- removed: scrollbar-gutter:stable handles layout shift, and overflow-y:scroll on body can interfere with Firefox fixed-position overlay stacking */
 
 /* Phrases table collapse */
 .phrases-wrapper {
@@ -164,6 +164,7 @@ body { overflow-y: scroll; }
   max-height: 2000px;
   overflow: hidden;
   margin-top: -1rem;
+  margin-bottom: 1rem; /* compensates for the -1rem top margin shifting Dictation H5 upward */
 }
 .phrases-wrapper.collapsed {
   max-height: 0;
