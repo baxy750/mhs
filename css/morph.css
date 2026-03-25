@@ -1,0 +1,255 @@
+/* Tufte-inspired color scheme */
+body, .md-main, .md-content {
+  background-color: #fffff8 !important;
+  color: #111111 !important;
+}
+.md-typeset {
+  color: #111111 !important;
+}
+.md-sidebar--primary,
+.md-sidebar--secondary {
+  background-color: #fffff8 !important;
+}
+
+[data-hyphen] { cursor: pointer; }
+
+/* Heading spacing */
+.md-typeset h1 {
+  margin-top: -0.3em;
+  margin-bottom: 0.25em;
+  font-weight: normal;
+}
+/* H5 = subtitle under H1 */
+.md-typeset h5 {
+  text-transform: none;
+  font-size: 1.4em;
+  font-weight: normal;
+  color: #666;
+  margin-bottom: 1.0em;
+}
+/* Only pull the subtitle H5 (immediately after H1) upward */
+.md-typeset h1 + h5 {
+  margin-top: -0.4em;
+}
+/* H6 = small subtext under H5 */
+.md-typeset h5 + h6 {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: #777;
+  margin-top: -1.1em;
+  margin-bottom: 1.9em;
+}
+.md-typeset h5 + h6 .headerlink { display: none; }
+
+/* Table spacing and typography */
+.md-typeset table td,
+.md-typeset table th {
+  line-height: 1.2 !important;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.md-typeset table td {
+  font-weight: 450;
+  font-variation-settings: "wght" 450;
+  white-space: normal;
+  hyphens: none;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+.md-typeset table th {
+  font-weight: 650;
+  font-variation-settings: "wght" 650;
+  white-space: nowrap;
+  word-break: keep-all;
+}
+.md-typeset__table table,
+.md-typeset__table table tr,
+.md-typeset__table table th,
+.md-typeset__table table td {
+  border: none !important;
+}
+.md-typeset table {
+  table-layout: fixed;
+  width: 100%;
+  margin-top: 0.4em;
+}
+
+/* Hide right TOC sidebar, expand content */
+.md-sidebar--secondary { display: none !important; }
+.md-content { max-width: 100% !important; }
+
+/* Toggle bar labels and inputs */
+.md-content label { font-size: 0.6rem; }
+.md-content label input[type="checkbox"] {
+  transform: scale(0.95);
+  vertical-align: middle;
+  margin-right: 0.2em;
+}
+
+/* Toggle bar button */
+.md-content button {
+  font-size: 0.6rem;
+  padding: 0.2em 0.6em;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 0.6em;
+  background-color: #f8f8f8;
+  color: #222;
+  cursor: pointer;
+  transition: background-color 0.15s ease, box-shadow 0.15s ease;
+}
+.md-content button:hover,
+.md-content button:focus {
+  background-color: #f0f0f0;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+.md-content button:active {
+  background-color: #e6e6e6;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+/* Narrower left nav, shift content accordingly */
+.md-sidebar--primary { width: 10rem; }
+.md-main__inner { margin-left: 2rem; }
+
+/* Toggle bar: float right, aligned with H1 */
+.toggle-bar {
+  float: right;
+  margin-top: -2.2em;
+  margin-bottom: 1.5em;
+  font-size: 0.8rem;
+}
+.toggle-bar input[type="checkbox"] {
+  transform: scale(0.85);
+  vertical-align: middle;
+  margin-right: 0.2em;
+}
+
+/* Collapsible section (hides content above Dictation heading) */
+.top-collapse-wrapper {
+  overflow: hidden;
+  transition: max-height 0.28s ease;
+  max-height: 9999px;
+}
+.top-collapse-wrapper.collapsed { max-height: 0.9rem; }
+.top-collapse-toggle {
+  all: unset;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  font-size: 0.9rem;
+  font-family: inherit;
+  color: inherit;
+  cursor: pointer;
+  display: block;
+  min-width: 3.2rem;
+  margin-top: var(--phrases-toggle-margin-top, -0.5rem);
+  margin-bottom: var(--phrases-toggle-margin-bottom, 0.5rem);
+  margin-left: var(--phrases-toggle-margin-left, -0.25rem);
+  padding: 0;
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+.top-collapse-toggle:focus { outline: 1px dotted rgba(0,0,0,0.25); }
+.top-collapse-toggle:hover { background: transparent !important; box-shadow: none !important; }
+
+html { scrollbar-gutter: stable; }
+/* body { overflow-y: scroll; } -- removed: scrollbar-gutter:stable handles layout shift, and overflow-y:scroll on body can interfere with Firefox fixed-position overlay stacking */
+
+/* Phrases table collapse */
+.phrases-wrapper {
+  transition: max-height 0.28s ease, opacity 0.2s ease;
+  max-height: 9999px;
+  overflow: hidden;
+  margin-top: -1rem;
+  margin-bottom: 1rem; /* compensates for the -1rem top margin shifting Dictation H5 upward */
+}
+.phrases-wrapper.collapsed {
+  max-height: 0;
+  opacity: 0;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Nav chevron: remove Material default, add simple arrow */
+.md-nav__item--nested > .md-nav__link::after {
+  content: none !important;
+  mask-image: none !important;
+  -webkit-mask-image: none !important;
+  background: none !important;
+}
+.md-nav__item--nested > .md-nav__link {
+  display: inline-flex;
+  align-items: center;
+}
+.md-nav__item--nested > .md-nav__link::after {
+  content: "›";
+  font-size: 0.9em;
+  margin-left: 0.3em;
+}
+
+/* Anchor link style (e.g. Dictation in toggle bar) */
+.toggle-link {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  color: inherit;
+}
+.md-typeset h1, .md-typeset h2, .md-typeset h3,
+.md-typeset h4, .md-typeset h5, .md-typeset h6 {
+  scroll-margin-top: 4rem;
+}
+
+/* Phrases table header */
+.phrases-wrapper table th { font-size: 0.675rem; }
+
+/* Mobile */
+@media (max-width: 768px) {
+  .md-typeset h5 + h6 { line-height: 1.4; }
+
+  .md-typeset h1, .md-typeset h2, .md-typeset h3,
+  .md-typeset h4, .md-typeset h5, .md-typeset h6 {
+    margin-top: 0 !important;
+    scroll-margin-top: 5.5rem;
+  }
+
+  .toggle-bar {
+    float: none !important;
+    clear: both !important;
+    display: block !important;
+    text-align: left !important;
+    margin-top: 0.25rem !important;
+    margin-bottom: 1.5em !important;
+  }
+
+  .md-main__inner {
+    margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
+  }
+
+  .md-typeset__table {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .md-typeset__table table {
+    width: 100% !important;
+    display: table !important;
+  }
+
+  .phrases-wrapper {
+    margin-top: 0;
+    padding-top: 0.45rem;
+  }
+
+  .top-collapse-toggle {
+    display: inline-block;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    font-size: 0.9rem;
+  }
+}
