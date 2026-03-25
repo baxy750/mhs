@@ -579,7 +579,63 @@ week07:
     eng: "In the evening I go home by bus and metro"
     notes: "este evening, [[haz a]] to home, [[bus szal]] by bus, [[metró val]] by metro; megyek I go (jövök I come)"
 
-week08:
+wweek08:
   - hun: "[[Magyar ul]] [[besz él]] Yodá"
     eng: "In Hungarian he speaks Yoda (Yoda speaks Hungarian)"
     notes: "beszélni to speak, [[magyar ul]] in Hungarian"
+
+  - hun: "A kávét szeretem"
+    eng: "The coffee, I like"
+    notes: "a [[kávé t]] [[szeret em]]"
+
+  - hun: "A kutyát sétáltatom"
+    eng: "The dog, I walk"
+    notes: "a [[kutya t]] [[sétáltat om]]"
+
+  - hun: "A buszt látom"
+    eng: "The bus, I see"
+    notes: "a [[busz t]] [[lát om]]"
+
+  - hun: "Ma kávét iszom"
+    eng: "Coffee today, I drink"
+    notes: "ma [[kávé t]] [[isz om]]"
+
+  - hun: "Sok magyart tanulok"
+    eng: "Much Hungarian, I learn"
+    notes: "sok [[magyar t]] [[tanul ok]]"
+
+  - hun: "A sötét oldalt érzem benned"
+    eng: "The dark side I sense in you"
+    notes: "a sötét [[oldal t]] [[érez em]] [[benn ed]]"
+
+  - hun: "Sokat kell még tanulnod"
+    eng: "Much you still must learn"
+    notes: "[[sok at]] kell még [[tanul nod]]"
+
+  - hun: "Erős vagy"
+    eng: "Strong you are"
+    notes: "[[erős]] [[vagy]]"
+
+  - hun: "Készen állsz?"
+    eng: "Ready are you?"
+    notes: "[[kész en]] [[áll sz]]"
+
+  - hun: "Mindig mozgásban van a jövő"
+    eng: "Always in motion the future is"
+    notes: "mindig [[mozgás ban]] van a jövő"
+
+  - hun: "Türelem kell"
+    eng: "Patience you must have"
+    notes: "[[türelem]] kell"
+
+  - hun: "Türelem kell hozzá"
+    eng: "Patience is needed for it"
+    notes: "[[türelem]] kell [[hozzá]]"
+
+  - hun: "Türelmesnek kell lenned"
+    eng: "Patient must you be"
+    notes: "[[türelmes nek]] kell [[len ned]]"
+
+  - hun: "Erőssé váltál"
+    eng: "Powerful you have become"
+    notes: "[[erős sé]] [[vál tál]]"
